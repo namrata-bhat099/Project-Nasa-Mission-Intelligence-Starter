@@ -1,0 +1,2015 @@
+2026-06-10 16:32:12,489 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:32:12,518 - INFO - Total documents: 8147
+2026-06-10 16:32:12,518 - INFO - Running custom query: What happened during the Apollo 13 crisis?
+2026-06-10 16:32:12,749 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.8281989574432373,
+  "top_distances": [
+    0.7832316160202026,
+    0.8120557069778442,
+    0.8372416496276855
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "with the spacecraft\nthrough Carnarvon. Apollo 13 will be coming within range of\nthe tracking antennas at the Honeysuckle Creek, Australia\nstation in less then a minute. We'll stand by for reacquiring.",
+  "first_source": "AS13_PAO_textract_full_text",
+  "first_mission": "apollo_13"
+}
+2026-06-10 16:33:49,631 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:33:49,663 - INFO - Total documents: 8147
+2026-06-10 16:33:49,663 - INFO - 
+================================================================================
+2026-06-10 16:33:49,663 - INFO - TESTING: Mission Queries
+2026-06-10 16:33:49,663 - INFO - ================================================================================
+
+2026-06-10 16:33:49,663 - INFO - [apollo_11_overview]
+2026-06-10 16:33:49,663 - INFO - Query: Tell me about Apollo 11 mission
+2026-06-10 16:33:49,926 - INFO - Status: SUCCESS
+2026-06-10 16:33:49,930 - INFO - Results: 5
+2026-06-10 16:33:49,930 - INFO - Avg Distance: 0.7423
+2026-06-10 16:33:49,930 - INFO - Top Distances: ['0.7008', '0.7162', '0.7508']
+2026-06-10 16:33:49,930 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:33:49,930 - INFO - Mission: apollo_11
+2026-06-10 16:33:49,930 - INFO - Preview: atitude 13°19' N and longitude 169°09' W.
+After landing, the crew donned biological isolation garments. The crew was then
+retrieved by helicopter and taken to the primary recovery ship, U.S.S. Hornet....
+2026-06-10 16:33:49,931 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:49,931 - INFO - [apollo_11_launch]
+2026-06-10 16:33:49,931 - INFO - Query: Apollo 11 launch date and time
+2026-06-10 16:33:50,113 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,114 - INFO - Results: 5
+2026-06-10 16:33:50,115 - INFO - Avg Distance: 0.7751
+2026-06-10 16:33:50,115 - INFO - Top Distances: ['0.7448', '0.7702', '0.7828']
+2026-06-10 16:33:50,115 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 16:33:50,115 - INFO - Mission: apollo_11
+2026-06-10 16:33:50,115 - INFO - Preview: t this time. All elements reporting
+in that all systems continuing to look good at this point. We are still aiming toward our
+planned liftoff at the start of the lunar window 9:32 AM eastern daylight....
+2026-06-10 16:33:50,115 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,115 - INFO - [apollo_11_astronauts]
+2026-06-10 16:33:50,116 - INFO - Query: Apollo 11 astronauts Neil Armstrong Buzz Aldrin Michael Collins
+2026-06-10 16:33:50,273 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,275 - INFO - Results: 5
+2026-06-10 16:33:50,275 - INFO - Avg Distance: 0.9484
+2026-06-10 16:33:50,275 - INFO - Top Distances: ['0.7773', '0.9599', '0.9801']
+2026-06-10 16:33:50,275 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:33:50,275 - INFO - Mission: apollo_11
+2026-06-10 16:33:50,275 - INFO - Preview: --- PAGE 1 ---
+CASE FILE
+COPY
+NASA SP-238
+APOLLO 11
+Mission Report
+PREPARED BY
+MISSION EVALUATION TEAM
+NASA MANNED SPACECRAFT CENTER
+AND
+SPACE ADMINISTRATION NATIONAL
+Scientific and Technical Informat...
+2026-06-10 16:33:50,275 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,275 - INFO - [apollo_13_overview]
+2026-06-10 16:33:50,275 - INFO - Query: Apollo 13 mission overview
+2026-06-10 16:33:50,431 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,432 - INFO - Results: 5
+2026-06-10 16:33:50,432 - INFO - Avg Distance: 0.6926
+2026-06-10 16:33:50,432 - INFO - Top Distances: ['0.6147', '0.6713', '0.7029']
+2026-06-10 16:33:50,432 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 16:33:50,433 - INFO - Mission: apollo_13
+2026-06-10 16:33:50,433 - INFO - Preview: 3 MISSION COMMENTARY, 4-11-70, 1:40 PM CST
+20/1
+AGNEW
+and the culmination of the efforts of man
+to improve his destiny is probably greater in this program
+than anything we've ever turned our national ...
+2026-06-10 16:33:50,433 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,433 - INFO - [apollo_13_problem]
+2026-06-10 16:33:50,433 - INFO - Query: What happened in Apollo 13 oxygen tank
+2026-06-10 16:33:50,593 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,594 - INFO - Results: 5
+2026-06-10 16:33:50,595 - INFO - Avg Distance: 0.6857
+2026-06-10 16:33:50,595 - INFO - Top Distances: ['0.6472', '0.6600', '0.6836']
+2026-06-10 16:33:50,595 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 16:33:50,595 - INFO - Mission: apollo_13
+2026-06-10 16:33:50,595 - INFO - Preview: onsole at this time, is involved with that sort
+of thing. As well as what procedures to be followed as far
+as jettisoning the LM and service modules all of these things
+being considered and discussed....
+2026-06-10 16:33:50,595 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,595 - INFO - [apollo_13_rescue]
+2026-06-10 16:33:50,595 - INFO - Query: Apollo 13 return to Earth safely
+2026-06-10 16:33:50,746 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,747 - INFO - Results: 5
+2026-06-10 16:33:50,747 - INFO - Avg Distance: 0.7043
+2026-06-10 16:33:50,747 - INFO - Top Distances: ['0.6720', '0.6754', '0.7031']
+2026-06-10 16:33:50,747 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 16:33:50,747 - INFO - Mission: apollo_13
+2026-06-10 16:33:50,747 - INFO - Preview: acking at this time shows that
+our entry interface angle remains at about minus 6.03 degrees.
+The midcourse correction plan for 5 hours prior to reentry
+which will be about 7 hours 3 minutes from now....
+2026-06-10 16:33:50,748 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,748 - INFO - [challenger_overview]
+2026-06-10 16:33:50,748 - INFO - Query: Challenger space shuttle mission
+2026-06-10 16:33:50,904 - INFO - Status: SUCCESS
+2026-06-10 16:33:50,905 - INFO - Results: 5
+2026-06-10 16:33:50,905 - INFO - Avg Distance: 0.9243
+2026-06-10 16:33:50,905 - INFO - Top Distances: ['0.8284', '0.9075', '0.9543']
+2026-06-10 16:33:50,906 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 16:33:50,906 - INFO - Mission: challenger
+2026-06-10 16:33:50,906 - INFO - Preview: CHALLENGER STS-51L MISSION AUDIO TRANSCRIPT
+Audio File: 107-AAG_STS-51L_Mission_Audio
+Transcription Date: 2025-07-13T12:33:40.358878
+===================================================================...
+2026-06-10 16:33:50,906 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:50,906 - INFO - [challenger_audio]
+2026-06-10 16:33:50,906 - INFO - Query: Challenger mission audio transcript
+2026-06-10 16:33:51,082 - INFO - Status: SUCCESS
+2026-06-10 16:33:51,083 - INFO - Results: 5
+2026-06-10 16:33:51,083 - INFO - Avg Distance: 0.7962
+2026-06-10 16:33:51,083 - INFO - Top Distances: ['0.6147', '0.6513', '0.7927']
+2026-06-10 16:33:51,083 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 16:33:51,084 - INFO - Mission: challenger
+2026-06-10 16:33:51,084 - INFO - Preview: CHALLENGER STS-51L MISSION AUDIO TRANSCRIPT
+Audio File: 107-AAG_STS-51L_Mission_Audio
+Transcription Date: 2025-07-13T12:33:40.358878
+===================================================================...
+2026-06-10 16:33:51,084 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:33:51,084 - INFO - 
+Category: Mission Queries
+2026-06-10 16:33:51,084 - INFO - Tests: 8
+2026-06-10 16:34:39,544 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:34:39,574 - INFO - Total documents: 8147
+2026-06-10 16:34:39,574 - INFO - 
+================================================================================
+2026-06-10 16:34:39,574 - INFO - TESTING: Technical Queries
+2026-06-10 16:34:39,574 - INFO - ================================================================================
+
+2026-06-10 16:34:39,574 - INFO - [guidance_system]
+2026-06-10 16:34:39,575 - INFO - Query: Guidance platform and navigation computer
+2026-06-10 16:34:39,815 - INFO - Status: SUCCESS
+2026-06-10 16:34:39,818 - INFO - Results: 5
+2026-06-10 16:34:39,818 - INFO - Avg Distance: 1.0814
+2026-06-10 16:34:39,818 - INFO - Top Distances: ['0.9949', '1.0648', '1.0887']
+2026-06-10 16:34:39,818 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:39,818 - INFO - Mission: apollo_11
+2026-06-10 16:34:39,818 - INFO - Preview: ve successive
+cursor readings and then five spiral readings. The result was then entered into the com-
+puter. This technique appeared to be easier than taking and then entering five separate
+readings....
+2026-06-10 16:34:39,818 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:39,818 - INFO - [life_support]
+2026-06-10 16:34:39,818 - INFO - Query: Life support system oxygen CO2 management
+2026-06-10 16:34:39,973 - INFO - Status: SUCCESS
+2026-06-10 16:34:39,974 - INFO - Results: 5
+2026-06-10 16:34:39,974 - INFO - Avg Distance: 1.0036
+2026-06-10 16:34:39,975 - INFO - Top Distances: ['0.8030', '0.9909', '1.0598']
+2026-06-10 16:34:39,976 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:39,976 - INFO - Mission: apollo_11
+2026-06-10 16:34:39,976 - INFO - Preview: ooling water to the liquid cooling garment and removed solid and gas contaminants
+from returning oxygen. The suited crewman wore the portable life support system, attached
+with a harness, on his back....
+2026-06-10 16:34:39,976 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:39,976 - INFO - [fuel_cells]
+2026-06-10 16:34:39,976 - INFO - Query: Fuel cells power generation
+2026-06-10 16:34:40,132 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,133 - INFO - Results: 5
+2026-06-10 16:34:40,133 - INFO - Avg Distance: 1.0658
+2026-06-10 16:34:40,133 - INFO - Top Distances: ['1.0000', '1.0514', '1.0621']
+2026-06-10 16:34:40,133 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:40,133 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,133 - INFO - Preview: o deliver less current than usual, and (2) battery A had been
+fully charged just prior to the maneuver. Both these conditions combined to result in
+the higher-than-usual current delivery by battery A....
+2026-06-10 16:34:40,133 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,134 - INFO - [communications]
+2026-06-10 16:34:40,134 - INFO - Query: Communication systems VHF radios
+2026-06-10 16:34:40,300 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,301 - INFO - Results: 5
+2026-06-10 16:34:40,301 - INFO - Avg Distance: 0.9594
+2026-06-10 16:34:40,302 - INFO - Top Distances: ['0.9180', '0.9272', '0.9489']
+2026-06-10 16:34:40,302 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 16:34:40,302 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,302 - INFO - Preview: unch phase
+where some data were so degraded as to be unusable. Loss of these data,
+however, posed no problem since losses were of such short duration as to
+have little or no impact on flight analysis....
+2026-06-10 16:34:40,302 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,302 - INFO - [landing_radar]
+2026-06-10 16:34:40,302 - INFO - Query: Lunar module landing radar
+2026-06-10 16:34:40,487 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,489 - INFO - Results: 5
+2026-06-10 16:34:40,489 - INFO - Avg Distance: 0.8838
+2026-06-10 16:34:40,489 - INFO - Top Distances: ['0.8050', '0.8652', '0.8943']
+2026-06-10 16:34:40,489 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:40,489 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,489 - INFO - Preview: in the lunar potential function
+5. Lunar module venting
+TABLE 5-I.- LUNAR DESCENT EVENT TIMES
+Time,
+hr:min:sec
+Event
+102:17:17
+Acquisition of data
+102:20:53
+Landing radar on
+102:24:40
+Abort guidance a...
+2026-06-10 16:34:40,489 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,490 - INFO - [thrusters]
+2026-06-10 16:34:40,490 - INFO - Query: Reaction control system thrusters
+2026-06-10 16:34:40,656 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,657 - INFO - Results: 5
+2026-06-10 16:34:40,657 - INFO - Avg Distance: 1.0239
+2026-06-10 16:34:40,657 - INFO - Top Distances: ['0.8892', '1.0462', '1.0513']
+2026-06-10 16:34:40,657 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:40,657 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,657 - INFO - Preview: igure 5-11 is a time history of pertinent vehicle control parameters during the
+entire descent phase. Evidence of fuel slosh was detected in the attitude-rate informa-
+tion following the yaw maneuver....
+2026-06-10 16:34:40,657 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,657 - INFO - [propulsion]
+2026-06-10 16:34:40,657 - INFO - Query: Saturn V rocket stages propulsion
+2026-06-10 16:34:40,822 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,823 - INFO - Results: 5
+2026-06-10 16:34:40,823 - INFO - Avg Distance: 0.9617
+2026-06-10 16:34:40,823 - INFO - Top Distances: ['0.9420', '0.9601', '0.9619']
+2026-06-10 16:34:40,823 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 16:34:40,823 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,823 - INFO - Preview: ng with the spacecraft test conductor on setting up
+proper switch settings in preparation for pressurizing the reaction control system. These are
+these big thrusters on the side of the service module....
+2026-06-10 16:34:40,823 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,823 - INFO - [thermal_control]
+2026-06-10 16:34:40,823 - INFO - Query: Thermal control heat shields
+2026-06-10 16:34:40,975 - INFO - Status: SUCCESS
+2026-06-10 16:34:40,976 - INFO - Results: 5
+2026-06-10 16:34:40,976 - INFO - Avg Distance: 0.9512
+2026-06-10 16:34:40,976 - INFO - Top Distances: ['0.8581', '0.8959', '0.9853']
+2026-06-10 16:34:40,976 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 16:34:40,976 - INFO - Mission: apollo_11
+2026-06-10 16:34:40,976 - INFO - Preview: PERATURE, °K
+1000
+1200
+15
+800
+10
+Btu/ft2-s
+800
+10
+600
+GAS TEMPERATURE,
+400
+5
+5
+400
+0
+0
+0
+200
+- 5
+0
+0
+20
+40
+60
+80
+0
+20
+40
+60
+80
+ALTITUDE, km
+ALTITUDE, km
+Figure 17-2. S-IC Base Heat Shield
+Figure 17-3....
+2026-06-10 16:34:40,976 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:40,976 - INFO - [batteries]
+2026-06-10 16:34:40,976 - INFO - Query: Battery power systems
+2026-06-10 16:34:41,148 - INFO - Status: SUCCESS
+2026-06-10 16:34:41,149 - INFO - Results: 5
+2026-06-10 16:34:41,149 - INFO - Avg Distance: 1.0978
+2026-06-10 16:34:41,149 - INFO - Top Distances: ['1.0877', '1.0882', '1.0924']
+2026-06-10 16:34:41,149 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 16:34:41,149 - INFO - Mission: apollo_11
+2026-06-10 16:34:41,149 - INFO - Preview: maintained during the docking of
+the CSM with the Lunar Module (LM). The CSM/LM was then successfully
+spring ejected from the LV. There were no significant control disturb-
+ances during the ejection.
+...
+2026-06-10 16:34:41,149 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:41,149 - INFO - [computers]
+2026-06-10 16:34:41,149 - INFO - Query: Apollo guidance computer navigation
+2026-06-10 16:34:41,316 - INFO - Status: SUCCESS
+2026-06-10 16:34:41,317 - INFO - Results: 5
+2026-06-10 16:34:41,318 - INFO - Avg Distance: 0.8349
+2026-06-10 16:34:41,318 - INFO - Top Distances: ['0.8216', '0.8296', '0.8390']
+2026-06-10 16:34:41,318 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 16:34:41,318 - INFO - Mission: apollo_11
+2026-06-10 16:34:41,318 - INFO - Preview: lan for lunar orbit navigation, based on Apollo 8 and 10 postflight
+analyses, was to fit tracking data from two near-side lunar passes with the orbit plane
+constrained to the latest one-pass solution....
+2026-06-10 16:34:41,318 - INFO - --------------------------------------------------------------------------------
+2026-06-10 16:34:41,318 - INFO - 
+Category: Technical Queries
+2026-06-10 16:34:41,318 - INFO - Tests: 10
+2026-06-10 16:37:36,179 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:37:36,207 - INFO - Total documents: 8147
+2026-06-10 16:37:36,207 - INFO - Running custom query: Apollo 11 moonwalk Neil Armstrong
+2026-06-10 16:37:36,454 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.8327407479286194,
+  "top_distances": [
+    0.8122986555099487,
+    0.8165659308433533,
+    0.838146984577179
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "seen some signs of activity aboard the\nspacecraft. We suspect they may be awakening shortly. At the present time Apollo 11 is\n30,980 nautical miles from the moon and the speed is 4308 feet per second.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 16:38:36,346 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:38:36,378 - INFO - Total documents: 8147
+2026-06-10 16:38:36,378 - INFO - Running custom query: can you tell me about Apollo 11 moonwalk by Neil Armstrong
+2026-06-10 16:38:36,675 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.887865424156189,
+  "top_distances": [
+    0.8485316038131714,
+    0.8767123818397522,
+    0.8911275863647461
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "s to be a lot better now. We're still not receiving Buzz's audio.\n07 09 38 20\nLMP\nGood evening. I'd like to discuss with you a few of the more symbolic aspects of\nthe flight of our mission, Apollo 11.",
+  "first_source": "a11transcript_tec_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 16:49:24,272 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:49:24,304 - INFO - Total documents: 8147
+2026-06-10 16:49:24,304 - INFO - Running custom query: can you tell me about Apollo 11 moonwalk by Neil Armstrong
+2026-06-10 16:49:24,597 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.887865424156189,
+  "top_distances": [
+    0.8485316038131714,
+    0.8767123818397522,
+    0.8911275863647461
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "s to be a lot better now. We're still not receiving Buzz's audio.\n07 09 38 20\nLMP\nGood evening. I'd like to discuss with you a few of the more symbolic aspects of\nthe flight of our mission, Apollo 11.",
+  "first_source": "a11transcript_tec_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 16:49:57,220 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 16:49:57,248 - INFO - Total documents: 8147
+2026-06-10 16:49:57,248 - INFO - Running custom query: Tell me abount Apollo 11
+2026-06-10 16:49:57,496 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.7837441563606262,
+  "top_distances": [
+    0.7576061487197876,
+    0.7803993225097656,
+    0.7867248058319092
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "s is Houston contact. (Garble).\nHONEYSUCKLE\nHoneysuckle, roger.\nGUAM\nGuam, roger.\nPAO\nTrans-Earth injection should be completed in about 10 seconds from now. And we should\nhave shut-down at this time.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:07:14,390 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:07:14,421 - INFO - Total documents: 8147
+2026-06-10 17:07:14,421 - INFO - Running custom query: Neil Armstrong commander spacecraft procedures
+2026-06-10 17:07:14,714 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.8490189909934998,
+  "top_distances": [
+    0.7335314750671387,
+    0.8536397814750671,
+    0.8614094853401184
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "as to land men on the lunar surface\nand to return them safely. The crew was Neil A. Armstrong, Commander;\nMichael Collins, Command Module (CM) Pilot; and Edwin E. Aldrin, Jr.,\nLunar Module (LM) Pilot.",
+  "first_source": "19900066485_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:07:46,622 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:07:46,652 - INFO - Total documents: 8147
+2026-06-10 17:07:46,652 - INFO - Running custom query: countdown T minus launch control
+2026-06-10 17:07:46,889 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.7992602109909057,
+  "top_distances": [
+    0.728379487991333,
+    0.7840228080749512,
+    0.7969435453414917
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "e computer will control all the remaining countdown events as well as monitor the response and status of all the space shuttle systems\n\n[137:09] spk_0: At T minus 31 seconds the ground line sequencer ",
+  "first_source": "108-AAG_STS-51L_Mission_Audio_transcript",
+  "first_mission": "challenger"
+}
+2026-06-10 17:08:42,217 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:08:42,249 - INFO - Total documents: 8147
+2026-06-10 17:08:42,249 - INFO - 
+================================================================================
+2026-06-10 17:08:42,249 - INFO - TESTING: Mission Queries
+2026-06-10 17:08:42,249 - INFO - ================================================================================
+
+2026-06-10 17:08:42,249 - INFO - [apollo_11_countdown]
+2026-06-10 17:08:42,249 - INFO - Query: Apollo 11 countdown T minus launch control
+2026-06-10 17:08:42,494 - INFO - Status: SUCCESS
+2026-06-10 17:08:42,497 - INFO - Results: 5
+2026-06-10 17:08:42,497 - INFO - Avg Distance: 0.5715
+2026-06-10 17:08:42,498 - INFO - Top Distances: ['0.5031', '0.5314', '0.5970']
+2026-06-10 17:08:42,498 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:08:42,498 - INFO - Mission: apollo_11
+2026-06-10 17:08:42,498 - INFO - Preview: t this time. All elements reporting
+in that all systems continuing to look good at this point. We are still aiming toward our
+planned liftoff at the start of the lunar window 9:32 AM eastern daylight....
+2026-06-10 17:08:42,498 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:42,498 - INFO - [apollo_11_liftoff]
+2026-06-10 17:08:42,498 - INFO - Query: Apollo 11 liftoff ignition engines running
+2026-06-10 17:08:42,689 - INFO - Status: SUCCESS
+2026-06-10 17:08:42,690 - INFO - Results: 5
+2026-06-10 17:08:42,691 - INFO - Avg Distance: 0.9052
+2026-06-10 17:08:42,691 - INFO - Top Distances: ['0.8686', '0.8939', '0.8975']
+2026-06-10 17:08:42,691 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:08:42,691 - INFO - Mission: apollo_11
+2026-06-10 17:08:42,691 - INFO - Preview: wiring at the board has exhibited intermit-
+tencies several times in the past. This board is the same type of terminal board that
+was found to be the cause of the control engine problem on Apollo 11. ...
+2026-06-10 17:08:42,691 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:42,691 - INFO - [apollo_11_astronauts]
+2026-06-10 17:08:42,692 - INFO - Query: Neil Armstrong Buzz Aldrin Mike Collins spacecraft
+2026-06-10 17:08:42,887 - INFO - Status: SUCCESS
+2026-06-10 17:08:42,888 - INFO - Results: 5
+2026-06-10 17:08:42,888 - INFO - Avg Distance: 1.0409
+2026-06-10 17:08:42,889 - INFO - Top Distances: ['0.9217', '1.0571', '1.0627']
+2026-06-10 17:08:42,889 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:08:42,889 - INFO - Mission: apollo_11
+2026-06-10 17:08:42,889 - INFO - Preview: --- PAGE 1 ---
+CASE FILE
+COPY
+NASA SP-238
+APOLLO 11
+Mission Report
+PREPARED BY
+MISSION EVALUATION TEAM
+NASA MANNED SPACECRAFT CENTER
+AND
+SPACE ADMINISTRATION NATIONAL
+Scientific and Technical Informat...
+2026-06-10 17:08:42,889 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:42,889 - INFO - [apollo_11_columbia_eagle]
+2026-06-10 17:08:42,889 - INFO - Query: Columbia Eagle command module lunar module
+2026-06-10 17:08:43,080 - INFO - Status: SUCCESS
+2026-06-10 17:08:43,082 - INFO - Results: 5
+2026-06-10 17:08:43,082 - INFO - Avg Distance: 0.8517
+2026-06-10 17:08:43,082 - INFO - Top Distances: ['0.8038', '0.8491', '0.8605']
+2026-06-10 17:08:43,082 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:08:43,082 - INFO - Mission: apollo_11
+2026-06-10 17:08:43,082 - INFO - Preview: 16:47 - GET 128:15 - 422/1
+COLUMBIA
+Eagle, Columbia.
+EAGLE
+Go ahead.
+COLUMBIA
+My hatch is removed. You can open yours and I'll start a shaft uplink.
+EAGLE
+Okay.
+COLUMBIA
+Standby one first.
+EAGLE
+Okay....
+2026-06-10 17:08:43,082 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:43,083 - INFO - [apollo_13_launch]
+2026-06-10 17:08:43,083 - INFO - Query: Apollo 13 lift-off ignition onboard voice transcription
+2026-06-10 17:08:43,266 - INFO - Status: SUCCESS
+2026-06-10 17:08:43,267 - INFO - Results: 5
+2026-06-10 17:08:43,267 - INFO - Avg Distance: 0.8102
+2026-06-10 17:08:43,267 - INFO - Top Distances: ['0.7166', '0.7835', '0.8030']
+2026-06-10 17:08:43,268 - INFO - Source: a11transcript_tec_textract_full_text
+2026-06-10 17:08:43,268 - INFO - Mission: apollo_11
+2026-06-10 17:08:43,268 - INFO - Preview: --- PAGE 1 ---
+Apollo 11
+Technical Air-to-Ground
+Voice Transcription
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+MANNED SPACECRAFT CENTER
+HOUSTON, TEXAS
+
+--- PAGE 2 ---
+
+
+--- PAGE 3 ---
+APOLLO 11 - ...
+2026-06-10 17:08:43,268 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:43,268 - INFO - [apollo_13_yaw_roll]
+2026-06-10 17:08:43,268 - INFO - Query: Apollo 13 yaw program roll procedure
+2026-06-10 17:08:43,447 - INFO - Status: SUCCESS
+2026-06-10 17:08:43,449 - INFO - Results: 5
+2026-06-10 17:08:43,449 - INFO - Avg Distance: 0.8466
+2026-06-10 17:08:43,449 - INFO - Top Distances: ['0.8178', '0.8236', '0.8550']
+2026-06-10 17:08:43,449 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:08:43,449 - INFO - Mission: apollo_13
+2026-06-10 17:08:43,449 - INFO - Preview: g at about 3.750.
+CAP COM Okay, Jim. Those are very close -
+I guess all you need to do is trim them up a bit.
+SC
+I plan to do a final trim - auto trim.
+And then a 4 jet translation.
+CAP COM Okay, Jim....
+2026-06-10 17:08:43,449 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:43,450 - INFO - [apollo_13_crew]
+2026-06-10 17:08:43,450 - INFO - Query: Jim Lovell Jack Swigert Fred Haise Apollo 13
+2026-06-10 17:08:43,640 - INFO - Status: SUCCESS
+2026-06-10 17:08:43,641 - INFO - Results: 5
+2026-06-10 17:08:43,641 - INFO - Avg Distance: 0.9850
+2026-06-10 17:08:43,642 - INFO - Top Distances: ['0.9452', '0.9524', '0.9736']
+2026-06-10 17:08:43,642 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:08:43,642 - INFO - Mission: apollo_13
+2026-06-10 17:08:43,642 - INFO - Preview: od. Although,
+we did hear from Jim Lovell once or twice, after that time,
+we have not heard from Jack Swigert since the rest period
+began. At 131 hours 49 minutes, this is Mission Control
+standing by....
+2026-06-10 17:08:43,642 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:43,642 - INFO - [challenger_sts_51l]
+2026-06-10 17:08:43,642 - INFO - Query: Challenger STS-51L mission launch control
+2026-06-10 17:08:43,824 - INFO - Status: SUCCESS
+2026-06-10 17:08:43,826 - INFO - Results: 5
+2026-06-10 17:08:43,826 - INFO - Avg Distance: 0.9293
+2026-06-10 17:08:43,826 - INFO - Top Distances: ['0.8979', '0.9003', '0.9451']
+2026-06-10 17:08:43,826 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:08:43,826 - INFO - Mission: challenger
+2026-06-10 17:08:43,826 - INFO - Preview: the consoles reporting that all of the systems are ready to go with the exception of the hatch problem
+
+[141:45] spk_0: The prime objective of the 51L mission is the launch of the second tracking and ...
+2026-06-10 17:08:43,826 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:43,826 - INFO - [challenger_crew]
+2026-06-10 17:08:43,827 - INFO - Query: Dick Scobie Mike Smith Judy Resnick Challenger
+2026-06-10 17:08:44,005 - INFO - Status: SUCCESS
+2026-06-10 17:08:44,006 - INFO - Results: 5
+2026-06-10 17:08:44,006 - INFO - Avg Distance: 1.2292
+2026-06-10 17:08:44,006 - INFO - Top Distances: ['1.0050', '1.2599', '1.2788']
+2026-06-10 17:08:44,007 - INFO - Source: 109-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:08:44,007 - INFO - Mission: challenger
+2026-06-10 17:08:44,007 - INFO - Preview: [119:20] spk_13: of this great country
+
+[119:22] spk_13: From South Carolina to Washington State Ohio to Mohawk New York
+
+[119:28] spk_13: Hawaii to North Carolina to Concord New Hampshire
+
+[119:33] s...
+2026-06-10 17:08:44,007 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:44,007 - INFO - [krista_mcauliffe]
+2026-06-10 17:08:44,007 - INFO - Query: Krista McAuliffe teacher space participant Challenger
+2026-06-10 17:08:44,183 - INFO - Status: SUCCESS
+2026-06-10 17:08:44,184 - INFO - Results: 5
+2026-06-10 17:08:44,184 - INFO - Avg Distance: 0.9440
+2026-06-10 17:08:44,184 - INFO - Top Distances: ['0.8861', '0.9069', '0.9443']
+2026-06-10 17:08:44,184 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:08:44,184 - INFO - Mission: challenger
+2026-06-10 17:08:44,185 - INFO - Preview: nnedy Space Center people in Mission Control are watching all of their programs and making sure that we're ready to come out of the hold at the proper time
+
+[132:31] spk_0: Although the 51L's primary ...
+2026-06-10 17:08:44,185 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:08:44,185 - INFO - 
+Category: Mission Queries
+2026-06-10 17:08:44,185 - INFO - Tests: 10
+2026-06-10 17:10:23,269 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:10:23,308 - INFO - Total documents: 8147
+2026-06-10 17:10:23,309 - INFO - Running custom query: apollo_11_countdown': 'Apollo 11 countdown T minus launch control
+2026-06-10 17:10:23,592 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.5920623064041137,
+  "top_distances": [
+    0.5127800703048706,
+    0.5334851145744324,
+    0.6195970773696899
+  ],
+  "relevance": "SOMEWHAT_RELEVANT \u25d0",
+  "first_result_preview": "t this time. All elements reporting\nin that all systems continuing to look good at this point. We are still aiming toward our\nplanned liftoff at the start of the lunar window 9:32 AM eastern daylight.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:11:05,121 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:11:05,153 - INFO - Total documents: 8147
+2026-06-10 17:11:05,154 - INFO - Running custom query: 'apollo_11_liftoff': 'Apollo 11 liftoff ignition engines running'
+2026-06-10 17:11:05,451 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.884065318107605,
+  "top_distances": [
+    0.8483059406280518,
+    0.8540469408035278,
+    0.8922755718231201
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "eading\nup to the ignition sequence at 8.9 seconds. We're approaching the 60 second mark on the\nApollo -\nEND OF TAPE <<<<<\nCDT 8:16 - GET T-1 - 15/1\nPAO\nleading up to the ignition sequence 8.9 seconds.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:11:22,764 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:11:22,795 - INFO - Total documents: 8147
+2026-06-10 17:11:22,795 - INFO - Running custom query: apollo_11_liftoff': 'Apollo 11 liftoff ignition engines running
+2026-06-10 17:11:23,064 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.8666928768157959,
+  "top_distances": [
+    0.803680956363678,
+    0.8668997287750244,
+    0.8734482526779175
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "eading\nup to the ignition sequence at 8.9 seconds. We're approaching the 60 second mark on the\nApollo -\nEND OF TAPE <<<<<\nCDT 8:16 - GET T-1 - 15/1\nPAO\nleading up to the ignition sequence 8.9 seconds.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:12:15,388 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:12:15,417 - INFO - Total documents: 8147
+2026-06-10 17:12:15,417 - INFO - Running custom query: Neil Armstrong Buzz Aldrin Mike Collins spacecraft
+2026-06-10 17:12:15,662 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 1.0409363031387329,
+  "top_distances": [
+    0.9217087030410767,
+    1.0570573806762695,
+    1.0627111196517944
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "--- PAGE 1 ---\nCASE FILE\nCOPY\nNASA SP-238\nAPOLLO 11\nMission Report\nPREPARED BY\nMISSION EVALUATION TEAM\nNASA MANNED SPACECRAFT CENTER\nAND\nSPACE ADMINISTRATION NATIONAL\nScientific and Technical Informat",
+  "first_source": "NASA_NTRS_Archive_19710015566_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:12:49,737 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:12:49,765 - INFO - Total documents: 8147
+2026-06-10 17:12:49,765 - INFO - Running custom query: Columbia Eagle command module lunar module
+2026-06-10 17:12:50,058 - INFO - Results: {
+  "status": "SUCCESS",
+  "result_count": 5,
+  "avg_distance": 0.8517275214195251,
+  "top_distances": [
+    0.803828239440918,
+    0.8490934371948242,
+    0.8604827523231506
+  ],
+  "relevance": "NOT_RELEVANT \u2717",
+  "first_result_preview": "16:47 - GET 128:15 - 422/1\nCOLUMBIA\nEagle, Columbia.\nEAGLE\nGo ahead.\nCOLUMBIA\nMy hatch is removed. You can open yours and I'll start a shaft uplink.\nEAGLE\nOkay.\nCOLUMBIA\nStandby one first.\nEAGLE\nOkay.",
+  "first_source": "a11transcript_pao_textract_full_text",
+  "first_mission": "apollo_11"
+}
+2026-06-10 17:19:17,542 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:19:17,570 - INFO - Total documents: 8147
+2026-06-10 17:19:17,571 - INFO - 
+================================================================================
+2026-06-10 17:19:17,571 - INFO - TESTING: Mission Queries
+2026-06-10 17:19:17,571 - INFO - ================================================================================
+
+2026-06-10 17:19:17,571 - INFO - [apollo_11_countdown]
+2026-06-10 17:19:17,571 - INFO - Query: Apollo 11 countdown T minus launch control
+2026-06-10 17:19:17,821 - INFO - Status: SUCCESS
+2026-06-10 17:19:17,822 - INFO - Relevance: [SOMEWHAT_RELEVANT]
+2026-06-10 17:19:17,822 - INFO - Results: 5
+2026-06-10 17:19:17,822 - INFO - Avg Distance: 0.5715
+2026-06-10 17:19:17,822 - INFO - Top Distances: ['0.5031', '0.5314', '0.5970']
+2026-06-10 17:19:17,822 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:19:17,822 - INFO - Mission: apollo_11
+2026-06-10 17:19:17,822 - INFO - Preview: t this time. All elements reporting
+in that all systems continuing to look good at this point. We are still aiming toward our
+planned liftoff at the start of the lunar window 9:32 AM eastern daylight....
+2026-06-10 17:19:17,822 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:17,823 - INFO - [apollo_11_liftoff]
+2026-06-10 17:19:17,823 - INFO - Query: Apollo 11 liftoff ignition engines running
+2026-06-10 17:19:18,024 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,024 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,024 - INFO - Results: 5
+2026-06-10 17:19:18,025 - INFO - Avg Distance: 0.9052
+2026-06-10 17:19:18,025 - INFO - Top Distances: ['0.8686', '0.8939', '0.8975']
+2026-06-10 17:19:18,025 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:19:18,025 - INFO - Mission: apollo_11
+2026-06-10 17:19:18,025 - INFO - Preview: wiring at the board has exhibited intermit-
+tencies several times in the past. This board is the same type of terminal board that
+was found to be the cause of the control engine problem on Apollo 11. ...
+2026-06-10 17:19:18,025 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,025 - INFO - [apollo_11_astronauts]
+2026-06-10 17:19:18,025 - INFO - Query: Neil Armstrong Buzz Aldrin Mike Collins spacecraft
+2026-06-10 17:19:18,216 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,217 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,217 - INFO - Results: 5
+2026-06-10 17:19:18,217 - INFO - Avg Distance: 1.0409
+2026-06-10 17:19:18,217 - INFO - Top Distances: ['0.9217', '1.0571', '1.0627']
+2026-06-10 17:19:18,217 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:19:18,217 - INFO - Mission: apollo_11
+2026-06-10 17:19:18,217 - INFO - Preview: --- PAGE 1 ---
+CASE FILE
+COPY
+NASA SP-238
+APOLLO 11
+Mission Report
+PREPARED BY
+MISSION EVALUATION TEAM
+NASA MANNED SPACECRAFT CENTER
+AND
+SPACE ADMINISTRATION NATIONAL
+Scientific and Technical Informat...
+2026-06-10 17:19:18,218 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,218 - INFO - [apollo_11_columbia_eagle]
+2026-06-10 17:19:18,218 - INFO - Query: Columbia Eagle command module lunar module
+2026-06-10 17:19:18,401 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,401 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,401 - INFO - Results: 5
+2026-06-10 17:19:18,401 - INFO - Avg Distance: 0.8517
+2026-06-10 17:19:18,401 - INFO - Top Distances: ['0.8038', '0.8491', '0.8605']
+2026-06-10 17:19:18,401 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:19:18,401 - INFO - Mission: apollo_11
+2026-06-10 17:19:18,402 - INFO - Preview: 16:47 - GET 128:15 - 422/1
+COLUMBIA
+Eagle, Columbia.
+EAGLE
+Go ahead.
+COLUMBIA
+My hatch is removed. You can open yours and I'll start a shaft uplink.
+EAGLE
+Okay.
+COLUMBIA
+Standby one first.
+EAGLE
+Okay....
+2026-06-10 17:19:18,402 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,402 - INFO - [apollo_13_launch]
+2026-06-10 17:19:18,402 - INFO - Query: Apollo 13 lift-off ignition onboard voice transcription
+2026-06-10 17:19:18,580 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,581 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,581 - INFO - Results: 5
+2026-06-10 17:19:18,581 - INFO - Avg Distance: 0.8102
+2026-06-10 17:19:18,581 - INFO - Top Distances: ['0.7166', '0.7835', '0.8030']
+2026-06-10 17:19:18,581 - INFO - Source: a11transcript_tec_textract_full_text
+2026-06-10 17:19:18,581 - INFO - Mission: apollo_11
+2026-06-10 17:19:18,581 - INFO - Preview: --- PAGE 1 ---
+Apollo 11
+Technical Air-to-Ground
+Voice Transcription
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+MANNED SPACECRAFT CENTER
+HOUSTON, TEXAS
+
+--- PAGE 2 ---
+
+
+--- PAGE 3 ---
+APOLLO 11 - ...
+2026-06-10 17:19:18,581 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,582 - INFO - [apollo_13_yaw_roll]
+2026-06-10 17:19:18,582 - INFO - Query: Apollo 13 yaw program roll procedure
+2026-06-10 17:19:18,762 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,762 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,762 - INFO - Results: 5
+2026-06-10 17:19:18,762 - INFO - Avg Distance: 0.8466
+2026-06-10 17:19:18,762 - INFO - Top Distances: ['0.8178', '0.8236', '0.8550']
+2026-06-10 17:19:18,762 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:19:18,762 - INFO - Mission: apollo_13
+2026-06-10 17:19:18,763 - INFO - Preview: g at about 3.750.
+CAP COM Okay, Jim. Those are very close -
+I guess all you need to do is trim them up a bit.
+SC
+I plan to do a final trim - auto trim.
+And then a 4 jet translation.
+CAP COM Okay, Jim....
+2026-06-10 17:19:18,763 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,763 - INFO - [apollo_13_crew]
+2026-06-10 17:19:18,763 - INFO - Query: Jim Lovell Jack Swigert Fred Haise Apollo 13
+2026-06-10 17:19:18,945 - INFO - Status: SUCCESS
+2026-06-10 17:19:18,945 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:18,945 - INFO - Results: 5
+2026-06-10 17:19:18,945 - INFO - Avg Distance: 0.9850
+2026-06-10 17:19:18,946 - INFO - Top Distances: ['0.9452', '0.9524', '0.9736']
+2026-06-10 17:19:18,946 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:19:18,946 - INFO - Mission: apollo_13
+2026-06-10 17:19:18,946 - INFO - Preview: od. Although,
+we did hear from Jim Lovell once or twice, after that time,
+we have not heard from Jack Swigert since the rest period
+began. At 131 hours 49 minutes, this is Mission Control
+standing by....
+2026-06-10 17:19:18,946 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:18,946 - INFO - [challenger_sts_51l]
+2026-06-10 17:19:18,946 - INFO - Query: Challenger STS-51L mission launch control
+2026-06-10 17:19:19,136 - INFO - Status: SUCCESS
+2026-06-10 17:19:19,136 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:19,136 - INFO - Results: 5
+2026-06-10 17:19:19,136 - INFO - Avg Distance: 0.9293
+2026-06-10 17:19:19,136 - INFO - Top Distances: ['0.8979', '0.9003', '0.9451']
+2026-06-10 17:19:19,136 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:19:19,137 - INFO - Mission: challenger
+2026-06-10 17:19:19,137 - INFO - Preview: the consoles reporting that all of the systems are ready to go with the exception of the hatch problem
+
+[141:45] spk_0: The prime objective of the 51L mission is the launch of the second tracking and ...
+2026-06-10 17:19:19,137 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:19,137 - INFO - [challenger_crew]
+2026-06-10 17:19:19,137 - INFO - Query: Dick Scobie Mike Smith Judy Resnick Challenger
+2026-06-10 17:19:19,315 - INFO - Status: SUCCESS
+2026-06-10 17:19:19,315 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:19,315 - INFO - Results: 5
+2026-06-10 17:19:19,315 - INFO - Avg Distance: 1.2292
+2026-06-10 17:19:19,316 - INFO - Top Distances: ['1.0050', '1.2599', '1.2788']
+2026-06-10 17:19:19,316 - INFO - Source: 109-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:19:19,316 - INFO - Mission: challenger
+2026-06-10 17:19:19,316 - INFO - Preview: [119:20] spk_13: of this great country
+
+[119:22] spk_13: From South Carolina to Washington State Ohio to Mohawk New York
+
+[119:28] spk_13: Hawaii to North Carolina to Concord New Hampshire
+
+[119:33] s...
+2026-06-10 17:19:19,316 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:19,316 - INFO - [krista_mcauliffe]
+2026-06-10 17:19:19,316 - INFO - Query: Krista McAuliffe teacher space participant Challenger
+2026-06-10 17:19:19,489 - INFO - Status: SUCCESS
+2026-06-10 17:19:19,489 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:19:19,490 - INFO - Results: 5
+2026-06-10 17:19:19,490 - INFO - Avg Distance: 0.9440
+2026-06-10 17:19:19,490 - INFO - Top Distances: ['0.8861', '0.9069', '0.9443']
+2026-06-10 17:19:19,490 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:19:19,490 - INFO - Mission: challenger
+2026-06-10 17:19:19,490 - INFO - Preview: nnedy Space Center people in Mission Control are watching all of their programs and making sure that we're ready to come out of the hold at the proper time
+
+[132:31] spk_0: Although the 51L's primary ...
+2026-06-10 17:19:19,490 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:19:19,490 - INFO - 
+Category: Mission Queries
+2026-06-10 17:19:19,490 - INFO - Tests: 10
+2026-06-10 17:22:13,512 - INFO - Connected to collection: nasa_space_missions_text
+2026-06-10 17:22:13,540 - INFO - Total documents: 8147
+2026-06-10 17:22:13,540 - INFO - 
+================================================================================
+2026-06-10 17:22:13,540 - INFO - TESTING: Mission Queries
+2026-06-10 17:22:13,540 - INFO - ================================================================================
+
+2026-06-10 17:22:13,541 - INFO - [apollo_11_countdown]
+2026-06-10 17:22:13,541 - INFO - Query: Apollo 11 countdown T minus launch control
+2026-06-10 17:22:13,805 - INFO - Status: SUCCESS
+2026-06-10 17:22:13,805 - INFO - Relevance: [SOMEWHAT_RELEVANT]
+2026-06-10 17:22:13,805 - INFO - Results: 5
+2026-06-10 17:22:13,805 - INFO - Avg Distance: 0.5715
+2026-06-10 17:22:13,805 - INFO - Top Distances: ['0.5031', '0.5314', '0.5970']
+2026-06-10 17:22:13,805 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:13,805 - INFO - Mission: apollo_11
+2026-06-10 17:22:13,805 - INFO - Preview: t this time. All elements reporting
+in that all systems continuing to look good at this point. We are still aiming toward our
+planned liftoff at the start of the lunar window 9:32 AM eastern daylight....
+2026-06-10 17:22:13,805 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:13,806 - INFO - [apollo_11_liftoff]
+2026-06-10 17:22:13,806 - INFO - Query: Apollo 11 liftoff ignition engines running
+2026-06-10 17:22:13,982 - INFO - Status: SUCCESS
+2026-06-10 17:22:13,982 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:13,982 - INFO - Results: 5
+2026-06-10 17:22:13,982 - INFO - Avg Distance: 0.9052
+2026-06-10 17:22:13,982 - INFO - Top Distances: ['0.8686', '0.8939', '0.8975']
+2026-06-10 17:22:13,982 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:13,982 - INFO - Mission: apollo_11
+2026-06-10 17:22:13,983 - INFO - Preview: wiring at the board has exhibited intermit-
+tencies several times in the past. This board is the same type of terminal board that
+was found to be the cause of the control engine problem on Apollo 11. ...
+2026-06-10 17:22:13,983 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:13,983 - INFO - [apollo_11_astronauts]
+2026-06-10 17:22:13,983 - INFO - Query: Neil Armstrong Buzz Aldrin Mike Collins spacecraft
+2026-06-10 17:22:14,163 - INFO - Status: SUCCESS
+2026-06-10 17:22:14,163 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:14,163 - INFO - Results: 5
+2026-06-10 17:22:14,163 - INFO - Avg Distance: 1.0409
+2026-06-10 17:22:14,163 - INFO - Top Distances: ['0.9217', '1.0571', '1.0627']
+2026-06-10 17:22:14,163 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:14,163 - INFO - Mission: apollo_11
+2026-06-10 17:22:14,163 - INFO - Preview: --- PAGE 1 ---
+CASE FILE
+COPY
+NASA SP-238
+APOLLO 11
+Mission Report
+PREPARED BY
+MISSION EVALUATION TEAM
+NASA MANNED SPACECRAFT CENTER
+AND
+SPACE ADMINISTRATION NATIONAL
+Scientific and Technical Informat...
+2026-06-10 17:22:14,163 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:14,163 - INFO - [apollo_11_columbia_eagle]
+2026-06-10 17:22:14,164 - INFO - Query: Columbia Eagle command module lunar module
+2026-06-10 17:22:14,351 - INFO - Status: SUCCESS
+2026-06-10 17:22:14,351 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:14,351 - INFO - Results: 5
+2026-06-10 17:22:14,351 - INFO - Avg Distance: 0.8517
+2026-06-10 17:22:14,352 - INFO - Top Distances: ['0.8038', '0.8491', '0.8605']
+2026-06-10 17:22:14,352 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:14,352 - INFO - Mission: apollo_11
+2026-06-10 17:22:14,352 - INFO - Preview: 16:47 - GET 128:15 - 422/1
+COLUMBIA
+Eagle, Columbia.
+EAGLE
+Go ahead.
+COLUMBIA
+My hatch is removed. You can open yours and I'll start a shaft uplink.
+EAGLE
+Okay.
+COLUMBIA
+Standby one first.
+EAGLE
+Okay....
+2026-06-10 17:22:14,352 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:14,352 - INFO - [apollo_13_launch]
+2026-06-10 17:22:14,352 - INFO - Query: Apollo 13 lift-off ignition onboard voice transcription
+2026-06-10 17:22:14,550 - INFO - Status: SUCCESS
+2026-06-10 17:22:14,550 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:14,550 - INFO - Results: 5
+2026-06-10 17:22:14,550 - INFO - Avg Distance: 0.8102
+2026-06-10 17:22:14,551 - INFO - Top Distances: ['0.7166', '0.7835', '0.8030']
+2026-06-10 17:22:14,551 - INFO - Source: a11transcript_tec_textract_full_text
+2026-06-10 17:22:14,551 - INFO - Mission: apollo_11
+2026-06-10 17:22:14,551 - INFO - Preview: --- PAGE 1 ---
+Apollo 11
+Technical Air-to-Ground
+Voice Transcription
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION
+MANNED SPACECRAFT CENTER
+HOUSTON, TEXAS
+
+--- PAGE 2 ---
+
+
+--- PAGE 3 ---
+APOLLO 11 - ...
+2026-06-10 17:22:14,551 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:14,551 - INFO - [apollo_13_yaw_roll]
+2026-06-10 17:22:14,551 - INFO - Query: Apollo 13 yaw program roll procedure
+2026-06-10 17:22:14,723 - INFO - Status: SUCCESS
+2026-06-10 17:22:14,723 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:14,723 - INFO - Results: 5
+2026-06-10 17:22:14,723 - INFO - Avg Distance: 0.8466
+2026-06-10 17:22:14,723 - INFO - Top Distances: ['0.8178', '0.8236', '0.8550']
+2026-06-10 17:22:14,723 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:14,723 - INFO - Mission: apollo_13
+2026-06-10 17:22:14,723 - INFO - Preview: g at about 3.750.
+CAP COM Okay, Jim. Those are very close -
+I guess all you need to do is trim them up a bit.
+SC
+I plan to do a final trim - auto trim.
+And then a 4 jet translation.
+CAP COM Okay, Jim....
+2026-06-10 17:22:14,724 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:14,724 - INFO - [apollo_13_crew]
+2026-06-10 17:22:14,724 - INFO - Query: Jim Lovell Jack Swigert Fred Haise Apollo 13
+2026-06-10 17:22:14,913 - INFO - Status: SUCCESS
+2026-06-10 17:22:14,913 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:14,914 - INFO - Results: 5
+2026-06-10 17:22:14,914 - INFO - Avg Distance: 0.9850
+2026-06-10 17:22:14,914 - INFO - Top Distances: ['0.9452', '0.9524', '0.9736']
+2026-06-10 17:22:14,914 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:14,914 - INFO - Mission: apollo_13
+2026-06-10 17:22:14,914 - INFO - Preview: od. Although,
+we did hear from Jim Lovell once or twice, after that time,
+we have not heard from Jack Swigert since the rest period
+began. At 131 hours 49 minutes, this is Mission Control
+standing by....
+2026-06-10 17:22:14,914 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:14,914 - INFO - [challenger_sts_51l]
+2026-06-10 17:22:14,914 - INFO - Query: Challenger STS-51L mission launch control
+2026-06-10 17:22:15,095 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,095 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,096 - INFO - Results: 5
+2026-06-10 17:22:15,096 - INFO - Avg Distance: 0.9293
+2026-06-10 17:22:15,096 - INFO - Top Distances: ['0.8979', '0.9003', '0.9451']
+2026-06-10 17:22:15,096 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:15,096 - INFO - Mission: challenger
+2026-06-10 17:22:15,096 - INFO - Preview: the consoles reporting that all of the systems are ready to go with the exception of the hatch problem
+
+[141:45] spk_0: The prime objective of the 51L mission is the launch of the second tracking and ...
+2026-06-10 17:22:15,096 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,096 - INFO - [challenger_crew]
+2026-06-10 17:22:15,096 - INFO - Query: Dick Scobie Mike Smith Judy Resnick Challenger
+2026-06-10 17:22:15,268 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,268 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,268 - INFO - Results: 5
+2026-06-10 17:22:15,268 - INFO - Avg Distance: 1.2292
+2026-06-10 17:22:15,268 - INFO - Top Distances: ['1.0050', '1.2599', '1.2788']
+2026-06-10 17:22:15,268 - INFO - Source: 109-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:15,268 - INFO - Mission: challenger
+2026-06-10 17:22:15,269 - INFO - Preview: [119:20] spk_13: of this great country
+
+[119:22] spk_13: From South Carolina to Washington State Ohio to Mohawk New York
+
+[119:28] spk_13: Hawaii to North Carolina to Concord New Hampshire
+
+[119:33] s...
+2026-06-10 17:22:15,269 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,269 - INFO - [krista_mcauliffe]
+2026-06-10 17:22:15,269 - INFO - Query: Krista McAuliffe teacher space participant Challenger
+2026-06-10 17:22:15,465 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,465 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,465 - INFO - Results: 5
+2026-06-10 17:22:15,465 - INFO - Avg Distance: 0.9440
+2026-06-10 17:22:15,465 - INFO - Top Distances: ['0.8861', '0.9069', '0.9443']
+2026-06-10 17:22:15,465 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:15,466 - INFO - Mission: challenger
+2026-06-10 17:22:15,466 - INFO - Preview: nnedy Space Center people in Mission Control are watching all of their programs and making sure that we're ready to come out of the hold at the proper time
+
+[132:31] spk_0: Although the 51L's primary ...
+2026-06-10 17:22:15,466 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,466 - INFO - 
+================================================================================
+2026-06-10 17:22:15,466 - INFO - TESTING: Technical Queries
+2026-06-10 17:22:15,466 - INFO - ================================================================================
+
+2026-06-10 17:22:15,466 - INFO - [guidance_system]
+2026-06-10 17:22:15,466 - INFO - Query: guidance system tracking beacons instrument unit
+2026-06-10 17:22:15,640 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,640 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,640 - INFO - Results: 5
+2026-06-10 17:22:15,640 - INFO - Avg Distance: 1.0139
+2026-06-10 17:22:15,640 - INFO - Top Distances: ['0.8988', '0.9761', '1.0582']
+2026-06-10 17:22:15,641 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:15,641 - INFO - Mission: apollo_11
+2026-06-10 17:22:15,641 - INFO - Preview: overage Summary
+19-7
+
+--- PAGE 230 ---
+Problems experienced during earth orbit included tracking on a sidelobe
+by Vanguard (VAN) (revolution 2) and a phasing problem experienced by GTK
+(revolution 2)....
+2026-06-10 17:22:15,641 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,641 - INFO - [reaction_control]
+2026-06-10 17:22:15,641 - INFO - Query: reaction control system thrusters service module
+2026-06-10 17:22:15,819 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,820 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,820 - INFO - Results: 5
+2026-06-10 17:22:15,820 - INFO - Avg Distance: 0.9857
+2026-06-10 17:22:15,820 - INFO - Top Distances: ['0.8859', '0.9702', '0.9865']
+2026-06-10 17:22:15,820 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:15,820 - INFO - Mission: apollo_11
+2026-06-10 17:22:15,820 - INFO - Preview: o 5
+Y-axis
+.8
+2 to 5
+-3.0
+--
+Z-axis
+Uncorrelated platform misalinement about the
+X-axis, arc sec
+-13
+50
+Uncorrelated platform misalinement about the
+-26
+50
+Y-axis, arc sec
+áµƒAveraged for entire flight....
+2026-06-10 17:22:15,821 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,821 - INFO - [fuel_cells]
+2026-06-10 17:22:15,821 - INFO - Query: fuel cells power spacecraft internal power
+2026-06-10 17:22:15,995 - INFO - Status: SUCCESS
+2026-06-10 17:22:15,995 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:15,995 - INFO - Results: 5
+2026-06-10 17:22:15,995 - INFO - Avg Distance: 1.0377
+2026-06-10 17:22:15,996 - INFO - Top Distances: ['0.8083', '0.9133', '1.0770']
+2026-06-10 17:22:15,996 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:15,996 - INFO - Mission: apollo_11
+2026-06-10 17:22:15,996 - INFO - Preview: o deliver less current than usual, and (2) battery A had been
+fully charged just prior to the maneuver. Both these conditions combined to result in
+the higher-than-usual current delivery by battery A....
+2026-06-10 17:22:15,996 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:15,996 - INFO - [lunar_module]
+2026-06-10 17:22:15,996 - INFO - Query: lunar module Eagle ascent stage descent stage
+2026-06-10 17:22:16,165 - INFO - Status: SUCCESS
+2026-06-10 17:22:16,166 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:16,166 - INFO - Results: 5
+2026-06-10 17:22:16,166 - INFO - Avg Distance: 0.7825
+2026-06-10 17:22:16,166 - INFO - Top Distances: ['0.6398', '0.7798', '0.8183']
+2026-06-10 17:22:16,166 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:16,166 - INFO - Mission: apollo_11
+2026-06-10 17:22:16,166 - INFO - Preview: y at the
+initiation of powered descent.
+Lunar module descent.- The descent orbit insertion maneuver was executed at
+101.5 hours, and approximately 57 minutes later, the powered descent sequence began....
+2026-06-10 17:22:16,166 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:16,166 - INFO - [command_module]
+2026-06-10 17:22:16,166 - INFO - Query: command module Columbia spacecraft checkout
+2026-06-10 17:22:16,341 - INFO - Status: SUCCESS
+2026-06-10 17:22:16,342 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:16,342 - INFO - Results: 5
+2026-06-10 17:22:16,342 - INFO - Avg Distance: 1.0182
+2026-06-10 17:22:16,342 - INFO - Top Distances: ['0.9683', '1.0089', '1.0182']
+2026-06-10 17:22:16,342 - INFO - Source: AS13_TEC_textract_full_text
+2026-06-10 17:22:16,342 - INFO - Mission: apollo_13
+2026-06-10 17:22:16,342 - INFO - Preview: hat I want to do, Jim. As I said, we're
+not going to give you detailed procedures, now.
+What we expect to have for you shortly are pro-
+cedures which we'll try and get up to you in the
+following form....
+2026-06-10 17:22:16,342 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:16,342 - INFO - [propellants]
+2026-06-10 17:22:16,343 - INFO - Query: propellant loading liquid oxygen liquid hydrogen
+2026-06-10 17:22:16,522 - INFO - Status: SUCCESS
+2026-06-10 17:22:16,522 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:16,523 - INFO - Results: 5
+2026-06-10 17:22:16,523 - INFO - Avg Distance: 1.0240
+2026-06-10 17:22:16,523 - INFO - Top Distances: ['0.9655', '0.9680', '0.9785']
+2026-06-10 17:22:16,523 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:16,523 - INFO - Mission: challenger
+2026-06-10 17:22:16,523 - INFO - Preview: old liquid oxygen and liquid hydrogen propellants That activity began on schedule at the T minus 6 hour mark which was shortly after 1:17 a.m. Monday Propellant loading was finished at about 4:17 a.m....
+2026-06-10 17:22:16,523 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:16,523 - INFO - [telemetry]
+2026-06-10 17:22:16,524 - INFO - Query: telemetry ground control Houston tracking
+2026-06-10 17:22:16,708 - INFO - Status: SUCCESS
+2026-06-10 17:22:16,708 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:16,708 - INFO - Results: 5
+2026-06-10 17:22:16,709 - INFO - Avg Distance: 1.0215
+2026-06-10 17:22:16,709 - INFO - Top Distances: ['0.9756', '1.0053', '1.0290']
+2026-06-10 17:22:16,709 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:16,709 - INFO - Mission: apollo_13
+2026-06-10 17:22:16,709 - INFO - Preview: is Apollo Control Houston.
+END OF TAPE
+
+--- PAGE 190 ---
+APOLLO 13 MISSION COMMENTARY, 4/13/70 CST 2:28P GET 49:15:10 138/1
+PAO
+This is Apollo Control Houston, 49
+hours, 32 minutes now since liftoff. ...
+2026-06-10 17:22:16,709 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:16,709 - INFO - [stabilization]
+2026-06-10 17:22:16,709 - INFO - Query: stabilization control system rotational hand controller
+2026-06-10 17:22:16,895 - INFO - Status: SUCCESS
+2026-06-10 17:22:16,895 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:16,896 - INFO - Results: 5
+2026-06-10 17:22:16,896 - INFO - Avg Distance: 1.2282
+2026-06-10 17:22:16,896 - INFO - Top Distances: ['1.1323', '1.2285', '1.2415']
+2026-06-10 17:22:16,896 - INFO - Source: AS13_TEC_textract_full_text
+2026-06-10 17:22:16,896 - INFO - Mission: apollo_13
+2026-06-10 17:22:16,896 - INFO - Preview: CMP
+Panel 2: RCS COMMAND, ON.
+05 06 35 25
+CC
+That's correct. Now the command module RCS
+check per step 4 of page E/2-1.
+05 06 35 44
+CMP
+Okay. Perform the command module RCS check per
+step 4, page 2-1....
+2026-06-10 17:22:16,896 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:16,896 - INFO - [batteries]
+2026-06-10 17:22:16,896 - INFO - Query: batteries internal power spacecraft systems
+2026-06-10 17:22:17,075 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,075 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,075 - INFO - Results: 5
+2026-06-10 17:22:17,075 - INFO - Avg Distance: 0.9660
+2026-06-10 17:22:17,075 - INFO - Top Distances: ['0.9004', '0.9370', '0.9575']
+2026-06-10 17:22:17,075 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:17,076 - INFO - Mission: apollo_11
+2026-06-10 17:22:17,076 - INFO - Preview: maintained during the docking of
+the CSM with the Lunar Module (LM). The CSM/LM was then successfully
+spring ejected from the LV. There were no significant control disturb-
+ances during the ejection.
+...
+2026-06-10 17:22:17,076 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,076 - INFO - [pressurization]
+2026-06-10 17:22:17,076 - INFO - Query: pressurization tanks helium pressure systems
+2026-06-10 17:22:17,261 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,261 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,261 - INFO - Results: 5
+2026-06-10 17:22:17,261 - INFO - Avg Distance: 0.8174
+2026-06-10 17:22:17,261 - INFO - Top Distances: ['0.7923', '0.8127', '0.8168']
+2026-06-10 17:22:17,261 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:17,261 - INFO - Mission: apollo_11
+2026-06-10 17:22:17,261 - INFO - Preview: settings to provide a higher pressure
+level for subsequent stages. It has also been recommended that the minimum
+pressure line of the prelaunch redline box be lowered approximately
+6.9 N/cm2 (10 psi)....
+2026-06-10 17:22:17,261 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,262 - INFO - 
+================================================================================
+2026-06-10 17:22:17,262 - INFO - TESTING: Mission Phase Queries
+2026-06-10 17:22:17,262 - INFO - ================================================================================
+
+2026-06-10 17:22:17,262 - INFO - [launch_sequence]
+2026-06-10 17:22:17,262 - INFO - Query: launch sequence countdown T minus procedures
+2026-06-10 17:22:17,455 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,455 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,455 - INFO - Results: 5
+2026-06-10 17:22:17,455 - INFO - Avg Distance: 0.8238
+2026-06-10 17:22:17,456 - INFO - Top Distances: ['0.6644', '0.8212', '0.8658']
+2026-06-10 17:22:17,456 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:17,456 - INFO - Mission: challenger
+2026-06-10 17:22:17,456 - INFO - Preview: e computer will control all the remaining countdown events as well as monitor the response and status of all the space shuttle systems
+
+[137:09] spk_0: At T minus 31 seconds the ground line sequencer ...
+2026-06-10 17:22:17,456 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,456 - INFO - [countdown]
+2026-06-10 17:22:17,456 - INFO - Query: countdown Apollo launch control firing room
+2026-06-10 17:22:17,630 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,631 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,631 - INFO - Results: 5
+2026-06-10 17:22:17,631 - INFO - Avg Distance: 0.7455
+2026-06-10 17:22:17,631 - INFO - Top Distances: ['0.6310', '0.7469', '0.7759']
+2026-06-10 17:22:17,631 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:17,631 - INFO - Mission: apollo_11
+2026-06-10 17:22:17,631 - INFO - Preview: members of the support team for Apollo 11, Astronaut Bill
+Pogue, is here in the firing room. He acts as Capsule Communication during the countdown.
+His call sign is Stoney. He controls that elevator. ...
+2026-06-10 17:22:17,631 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,631 - INFO - [liftoff]
+2026-06-10 17:22:17,631 - INFO - Query: liftoff engines running ignition Saturn V thrust
+2026-06-10 17:22:17,805 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,805 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,806 - INFO - Results: 5
+2026-06-10 17:22:17,806 - INFO - Avg Distance: 0.9806
+2026-06-10 17:22:17,806 - INFO - Top Distances: ['0.8573', '0.9607', '1.0003']
+2026-06-10 17:22:17,806 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:17,806 - INFO - Mission: apollo_11
+2026-06-10 17:22:17,806 - INFO - Preview: ng with the spacecraft test conductor on setting up
+proper switch settings in preparation for pressurizing the reaction control system. These are
+these big thrusters on the side of the service module....
+2026-06-10 17:22:17,806 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,806 - INFO - [automatic_sequence]
+2026-06-10 17:22:17,806 - INFO - Query: automatic sequence computer ground master
+2026-06-10 17:22:17,975 - INFO - Status: SUCCESS
+2026-06-10 17:22:17,975 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:17,975 - INFO - Results: 5
+2026-06-10 17:22:17,975 - INFO - Avg Distance: 1.1407
+2026-06-10 17:22:17,975 - INFO - Top Distances: ['1.0552', '1.1455', '1.1501']
+2026-06-10 17:22:17,976 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:17,976 - INFO - Mission: challenger
+2026-06-10 17:22:17,976 - INFO - Preview: e computer will control all the remaining countdown events as well as monitor the response and status of all the space shuttle systems
+
+[137:09] spk_0: At T minus 31 seconds the ground line sequencer ...
+2026-06-10 17:22:17,976 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:17,976 - INFO - [powered_flight]
+2026-06-10 17:22:17,976 - INFO - Query: powered flight first stage S-IC engines
+2026-06-10 17:22:18,162 - INFO - Status: SUCCESS
+2026-06-10 17:22:18,162 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:18,162 - INFO - Results: 5
+2026-06-10 17:22:18,162 - INFO - Avg Distance: 0.9961
+2026-06-10 17:22:18,163 - INFO - Top Distances: ['0.9520', '0.9590', '0.9973']
+2026-06-10 17:22:18,163 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:18,163 - INFO - Mission: apollo_11
+2026-06-10 17:22:18,163 - INFO - Preview: ior to S-IC/S-II first-plane
+separation were within staging requirements.
+11.2.1 Liftoff Clearances
+The launch vehicle cleared the mobile launcher structure within the avail-
+able clearance envelopes....
+2026-06-10 17:22:18,163 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:18,163 - INFO - [separation]
+2026-06-10 17:22:18,163 - INFO - Query: separation command module lunar module orbit
+2026-06-10 17:22:18,341 - INFO - Status: SUCCESS
+2026-06-10 17:22:18,341 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:18,342 - INFO - Results: 5
+2026-06-10 17:22:18,342 - INFO - Avg Distance: 0.7344
+2026-06-10 17:22:18,342 - INFO - Top Distances: ['0.6772', '0.7102', '0.7304']
+2026-06-10 17:22:18,342 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:18,342 - INFO - Mission: apollo_11
+2026-06-10 17:22:18,342 - INFO - Preview: guidance system dis-
+agreed with the primary system by approximately 0.2 ft/sec, which is well within the
+preflight limit. The velocity was nulled, since the primary system was assumed to be
+correct. ...
+2026-06-10 17:22:18,342 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:18,343 - INFO - [lunar_operations]
+2026-06-10 17:22:18,343 - INFO - Query: lunar orbit insertion descent procedures
+2026-06-10 17:22:18,516 - INFO - Status: SUCCESS
+2026-06-10 17:22:18,516 - INFO - Relevance: [SOMEWHAT_RELEVANT]
+2026-06-10 17:22:18,516 - INFO - Results: 5
+2026-06-10 17:22:18,516 - INFO - Avg Distance: 0.6723
+2026-06-10 17:22:18,516 - INFO - Top Distances: ['0.5563', '0.6950', '0.6952']
+2026-06-10 17:22:18,516 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:18,517 - INFO - Mission: apollo_11
+2026-06-10 17:22:18,517 - INFO - Preview: y at the
+initiation of powered descent.
+Lunar module descent.- The descent orbit insertion maneuver was executed at
+101.5 hours, and approximately 57 minutes later, the powered descent sequence began....
+2026-06-10 17:22:18,517 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:18,517 - INFO - [surface_activities]
+2026-06-10 17:22:18,517 - INFO - Query: spacecraft checkout procedures test systems
+2026-06-10 17:22:18,685 - INFO - Status: SUCCESS
+2026-06-10 17:22:18,685 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:18,685 - INFO - Results: 5
+2026-06-10 17:22:18,685 - INFO - Avg Distance: 1.0602
+2026-06-10 17:22:18,685 - INFO - Top Distances: ['0.9409', '1.0592', '1.0818']
+2026-06-10 17:22:18,685 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:18,686 - INFO - Mission: apollo_11
+2026-06-10 17:22:18,686 - INFO - Preview: test. The basic objective of
+flight evaluation is to acquire, reduce, analyze, evaluate and report on
+flight test data to the extent required to assure future mission success
+and vehicle reliability. ...
+2026-06-10 17:22:18,686 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:18,686 - INFO - [return_trajectory]
+2026-06-10 17:22:18,686 - INFO - Query: return trajectory Earth mission control
+2026-06-10 17:22:18,863 - INFO - Status: SUCCESS
+2026-06-10 17:22:18,863 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:18,864 - INFO - Results: 5
+2026-06-10 17:22:18,864 - INFO - Avg Distance: 1.0519
+2026-06-10 17:22:18,864 - INFO - Top Distances: ['1.0386', '1.0460', '1.0488']
+2026-06-10 17:22:18,864 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:18,864 - INFO - Mission: apollo_11
+2026-06-10 17:22:18,864 - INFO - Preview: ring revolutions 11 to 13.
+The coordinates used for ascent targeting were the best preflight estimate of
+landing-site radius and the onboard-guidance estimate of latitude and longitude at touch-
+down ...
+2026-06-10 17:22:18,864 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:18,864 - INFO - [swing_arm]
+2026-06-10 17:22:18,864 - INFO - Query: swing arm spacecraft hatch procedures
+2026-06-10 17:22:19,044 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,044 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,044 - INFO - Results: 5
+2026-06-10 17:22:19,044 - INFO - Avg Distance: 1.0388
+2026-06-10 17:22:19,045 - INFO - Top Distances: ['0.8543', '1.0641', '1.0846']
+2026-06-10 17:22:19,045 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:19,045 - INFO - Mission: apollo_11
+2026-06-10 17:22:19,045 - INFO - Preview: astronauts up to this time
+are just in the process of finishing up their work. They've been advised by the spacecraft test
+conductor that they'll probably be able to move out in about 3 minutes or SO....
+2026-06-10 17:22:19,045 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,045 - INFO - 
+================================================================================
+2026-06-10 17:22:19,045 - INFO - TESTING: Incident/Event Queries
+2026-06-10 17:22:19,045 - INFO - ================================================================================
+
+2026-06-10 17:22:19,045 - INFO - [launch_hold]
+2026-06-10 17:22:19,046 - INFO - Query: launch hold countdown procedures postpone
+2026-06-10 17:22:19,235 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,235 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,235 - INFO - Results: 5
+2026-06-10 17:22:19,235 - INFO - Avg Distance: 0.8798
+2026-06-10 17:22:19,235 - INFO - Top Distances: ['0.8564', '0.8685', '0.8782']
+2026-06-10 17:22:19,235 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:19,235 - INFO - Mission: challenger
+2026-06-10 17:22:19,235 - INFO - Preview: to the
+
+[156:37] spk_0: orbiter access area and the white room
+
+[156:42] spk_0: The crew picking up the tools now having a drill and the proper size bit to drill out the the screw which is
+
+[156:54] s...
+2026-06-10 17:22:19,236 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,236 - INFO - [weather_conditions]
+2026-06-10 17:22:19,236 - INFO - Query: weather conditions winds launch pad
+2026-06-10 17:22:19,408 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,408 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,408 - INFO - Results: 5
+2026-06-10 17:22:19,409 - INFO - Avg Distance: 0.8523
+2026-06-10 17:22:19,409 - INFO - Top Distances: ['0.7991', '0.8410', '0.8488']
+2026-06-10 17:22:19,409 - INFO - Source: 107-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:19,409 - INFO - Mission: challenger
+2026-06-10 17:22:19,409 - INFO - Preview: nd holding The launch team is presently going through a standard check of all of the major console operators and managers to determine their readiness to pick up the count should the weather improve
+
+...
+2026-06-10 17:22:19,409 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,409 - INFO - [abort_checks]
+2026-06-10 17:22:19,409 - INFO - Query: abort checks launch director GO
+2026-06-10 17:22:19,580 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,580 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,580 - INFO - Results: 5
+2026-06-10 17:22:19,580 - INFO - Avg Distance: 1.2004
+2026-06-10 17:22:19,580 - INFO - Top Distances: ['1.1612', '1.1869', '1.1941']
+2026-06-10 17:22:19,580 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:19,580 - INFO - Mission: apollo_13
+2026-06-10 17:22:19,580 - INFO - Preview: , this is Kennedy Launch
+Control.
+END OF TAPE
+
+--- PAGE 15 ---
+APOLLO 13 MISSION COMMENTARY, 4-11-70, 1:07 p.m. CST 15/1
+This is Apollo/Saturn launch control T minus 5 minutes
+27 seconds and counting....
+2026-06-10 17:22:19,581 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,581 - INFO - [destruct_system]
+2026-06-10 17:22:19,581 - INFO - Query: destruct system range safety command
+2026-06-10 17:22:19,744 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,744 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,744 - INFO - Results: 5
+2026-06-10 17:22:19,745 - INFO - Avg Distance: 1.0840
+2026-06-10 17:22:19,745 - INFO - Top Distances: ['0.9641', '1.0604', '1.1178']
+2026-06-10 17:22:19,745 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:19,745 - INFO - Mission: apollo_11
+2026-06-10 17:22:19,745 - INFO - Preview: 7. Battery 6D40 Voltage, Current, and Temperature
+13-8
+
+--- PAGE 193 ---
+SECTION 14
+RANGE SAFETY AND COMMAND SYSTEMS
+14.1 SUMMARY
+Data indicated that the redundant Secure Range Safety Command Systems
+...
+2026-06-10 17:22:19,745 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,745 - INFO - [manual_procedures]
+2026-06-10 17:22:19,745 - INFO - Query: manual procedures test conductor spacecraft
+2026-06-10 17:22:19,920 - INFO - Status: SUCCESS
+2026-06-10 17:22:19,920 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:19,921 - INFO - Results: 5
+2026-06-10 17:22:19,921 - INFO - Avg Distance: 1.1063
+2026-06-10 17:22:19,921 - INFO - Top Distances: ['1.0174', '1.0876', '1.0925']
+2026-06-10 17:22:19,921 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:19,921 - INFO - Mission: apollo_11
+2026-06-10 17:22:19,921 - INFO - Preview: red smoothly and approximately at the predicted
+time. The S-IVB insertion trajectory was completed without incident, and the automatic
+guidance shutdown yielded an insertion-orbit ephemeris, from the ...
+2026-06-10 17:22:19,921 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:19,921 - INFO - [emergency_detection]
+2026-06-10 17:22:19,921 - INFO - Query: emergency detection system spacecraft
+2026-06-10 17:22:20,087 - INFO - Status: SUCCESS
+2026-06-10 17:22:20,088 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:20,088 - INFO - Results: 5
+2026-06-10 17:22:20,088 - INFO - Avg Distance: 1.1207
+2026-06-10 17:22:20,088 - INFO - Top Distances: ['1.0135', '1.1172', '1.1254']
+2026-06-10 17:22:20,088 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:20,088 - INFO - Mission: apollo_11
+2026-06-10 17:22:20,088 - INFO - Preview: Electrical System
+13-1
+13.3
+S-II Stage Electrical System
+13-2
+13.4
+S-IVB Stage Electrical System
+13-3
+13.5
+Instrument Unit Electrical System
+13-6
+14
+RANGE SAFETY AND COMMAND SYSTEMS
+14.1
+Summary
+14-1
+...
+2026-06-10 17:22:20,088 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:20,088 - INFO - [system_checkout]
+2026-06-10 17:22:20,088 - INFO - Query: system checkout procedures status GO
+2026-06-10 17:22:20,260 - INFO - Status: SUCCESS
+2026-06-10 17:22:20,260 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:20,260 - INFO - Results: 5
+2026-06-10 17:22:20,260 - INFO - Avg Distance: 1.1542
+2026-06-10 17:22:20,260 - INFO - Top Distances: ['1.1132', '1.1318', '1.1411']
+2026-06-10 17:22:20,260 - INFO - Source: AS13_TEC_textract_full_text
+2026-06-10 17:22:20,261 - INFO - Mission: apollo_13
+2026-06-10 17:22:20,261 - INFO - Preview: hat I want to do, Jim. As I said, we're
+not going to give you detailed procedures, now.
+What we expect to have for you shortly are pro-
+cedures which we'll try and get up to you in the
+following form....
+2026-06-10 17:22:20,261 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:20,261 - INFO - [leaky_valve]
+2026-06-10 17:22:20,261 - INFO - Query: valve hydrogen fuel supply bypass
+2026-06-10 17:22:20,442 - INFO - Status: SUCCESS
+2026-06-10 17:22:20,442 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:20,442 - INFO - Results: 5
+2026-06-10 17:22:20,442 - INFO - Avg Distance: 1.1521
+2026-06-10 17:22:20,442 - INFO - Top Distances: ['1.0609', '1.1580', '1.1765']
+2026-06-10 17:22:20,442 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:20,443 - INFO - Mission: challenger
+2026-06-10 17:22:20,443 - INFO - Preview: ll its pressure checks are underway and the liquid oxygen tank approaching flight pressure
+
+[143:50] spk_0: T minus 2 minutes and counting The liquid hydrogen replenish has been terminated and liquid ...
+2026-06-10 17:22:20,443 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:20,443 - INFO - [pyrotechnics]
+2026-06-10 17:22:20,443 - INFO - Query: pyrotechnics systems armed escape tower
+2026-06-10 17:22:20,624 - INFO - Status: SUCCESS
+2026-06-10 17:22:20,624 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:20,624 - INFO - Results: 5
+2026-06-10 17:22:20,624 - INFO - Avg Distance: 1.2400
+2026-06-10 17:22:20,624 - INFO - Top Distances: ['1.2108', '1.2177', '1.2381']
+2026-06-10 17:22:20,625 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:20,625 - INFO - Mission: apollo_11
+2026-06-10 17:22:20,625 - INFO - Preview: about 3.9 pounds per square inch. The cabin pressure down to
+about a tenth of a pound now. .04 pounds now. There went something. Looked like a
+portable life support system. Here comes the other PLSS. ...
+2026-06-10 17:22:20,625 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:20,625 - INFO - 
+================================================================================
+2026-06-10 17:22:20,625 - INFO - TESTING: Crew Queries
+2026-06-10 17:22:20,625 - INFO - ================================================================================
+
+2026-06-10 17:22:20,625 - INFO - [neil_armstrong]
+2026-06-10 17:22:20,625 - INFO - Query: Neil Armstrong commander spacecraft procedures
+2026-06-10 17:22:20,817 - INFO - Status: SUCCESS
+2026-06-10 17:22:20,817 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:20,818 - INFO - Results: 5
+2026-06-10 17:22:20,818 - INFO - Avg Distance: 0.8490
+2026-06-10 17:22:20,818 - INFO - Top Distances: ['0.7335', '0.8536', '0.8614']
+2026-06-10 17:22:20,818 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:20,818 - INFO - Mission: apollo_11
+2026-06-10 17:22:20,818 - INFO - Preview: as to land men on the lunar surface
+and to return them safely. The crew was Neil A. Armstrong, Commander;
+Michael Collins, Command Module (CM) Pilot; and Edwin E. Aldrin, Jr.,
+Lunar Module (LM) Pilot....
+2026-06-10 17:22:20,818 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:20,819 - INFO - [buzz_aldrin]
+2026-06-10 17:22:20,819 - INFO - Query: Buzz Aldrin middle seat reaction control pressurization
+2026-06-10 17:22:21,002 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,002 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,002 - INFO - Results: 5
+2026-06-10 17:22:21,002 - INFO - Avg Distance: 1.1503
+2026-06-10 17:22:21,003 - INFO - Top Distances: ['1.0813', '1.1319', '1.1715']
+2026-06-10 17:22:21,003 - INFO - Source: a11transcript_tec_textract_full_text
+2026-06-10 17:22:21,003 - INFO - Mission: apollo_11
+2026-06-10 17:22:21,003 - INFO - Preview: efore we press on with this procedure.
+00 03 49 33
+CC
+Roger, Apollo 11. Go ahead.
+00 03 49 37
+CMP
+Okay. We're pressing on with the procedure.
+00 03 49 40
+CC
+And 11, Houston. We have a request for you....
+2026-06-10 17:22:21,003 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,003 - INFO - [michael_collins]
+2026-06-10 17:22:21,003 - INFO - Query: Mike Collins astronaut spacecraft checkout
+2026-06-10 17:22:21,205 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,205 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,205 - INFO - Results: 5
+2026-06-10 17:22:21,205 - INFO - Avg Distance: 1.1356
+2026-06-10 17:22:21,205 - INFO - Top Distances: ['1.1144', '1.1367', '1.1410']
+2026-06-10 17:22:21,205 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:21,205 - INFO - Mission: apollo_11
+2026-06-10 17:22:21,205 - INFO - Preview: Drive
+Huntsville, Alabama 35804
+N. G. Futral
+NASA Resident Manager's Office
+North American Rockwell/Space Division
+69 Bypass NE
+McAllester, Oklahoma 74501
+C. Flora
+McDonnell Douglas Astronautics Corp....
+2026-06-10 17:22:21,206 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,206 - INFO - [jim_lovell]
+2026-06-10 17:22:21,206 - INFO - Query: Jim Lovell commander Apollo 13 flight crew
+2026-06-10 17:22:21,410 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,410 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,410 - INFO - Results: 5
+2026-06-10 17:22:21,410 - INFO - Avg Distance: 0.8588
+2026-06-10 17:22:21,410 - INFO - Top Distances: ['0.7832', '0.8192', '0.8921']
+2026-06-10 17:22:21,410 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:21,410 - INFO - Mission: apollo_13
+2026-06-10 17:22:21,410 - INFO - Preview: T
+7/1
+PAO
+This is Apollo/Saturn Launch Control T minus
+45 minutes and counting, T minus 45 minutes and counting. Steps
+are now underway for moving the swing arm back to the 12 degree
+or park position....
+2026-06-10 17:22:21,411 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,411 - INFO - [fred_haise]
+2026-06-10 17:22:21,411 - INFO - Query: Fred Haise lunar module pilot Apollo 13
+2026-06-10 17:22:21,597 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,597 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,597 - INFO - Results: 5
+2026-06-10 17:22:21,597 - INFO - Avg Distance: 0.8845
+2026-06-10 17:22:21,597 - INFO - Top Distances: ['0.8404', '0.8626', '0.8841']
+2026-06-10 17:22:21,598 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:21,598 - INFO - Mission: apollo_13
+2026-06-10 17:22:21,598 - INFO - Preview: head, 13.
+SC
+Okay, the LMP has entered the LM.
+CAP COM
+Roger.
+PAO
+Apollo -
+SC
+John?
+CAP COM
+It sure is. How're you doing?
+SC
+Fine.
+CAP COM
+Yes, you're doing great, man.
+SC
+Thank you. I had a good CDR....
+2026-06-10 17:22:21,598 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,598 - INFO - [jack_swigert]
+2026-06-10 17:22:21,598 - INFO - Query: Jack Swigert command module pilot Apollo 13
+2026-06-10 17:22:21,776 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,776 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,776 - INFO - Results: 5
+2026-06-10 17:22:21,777 - INFO - Avg Distance: 0.7309
+2026-06-10 17:22:21,777 - INFO - Top Distances: ['0.5953', '0.6697', '0.7718']
+2026-06-10 17:22:21,777 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:21,777 - INFO - Mission: apollo_13
+2026-06-10 17:22:21,777 - INFO - Preview: you want to copy that for
+Jack? Over.
+SC
+Stand by. I'll have to try to borrow his
+book from him.
+CAP COM
+Roger.
+SC
+Can we hold off on that a little bit, Joe?
+CAP COM Absolutely, Jim. We're well ahead....
+2026-06-10 17:22:21,777 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,777 - INFO - [test_conductor]
+2026-06-10 17:22:21,777 - INFO - Query: test conductor spacecraft Skip Chauvin procedures
+2026-06-10 17:22:21,971 - INFO - Status: SUCCESS
+2026-06-10 17:22:21,971 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:21,971 - INFO - Results: 5
+2026-06-10 17:22:21,971 - INFO - Avg Distance: 1.2067
+2026-06-10 17:22:21,971 - INFO - Top Distances: ['1.1816', '1.1979', '1.2080']
+2026-06-10 17:22:21,972 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:21,972 - INFO - Mission: apollo_11
+2026-06-10 17:22:21,972 - INFO - Preview: red smoothly and approximately at the predicted
+time. The S-IVB insertion trajectory was completed without incident, and the automatic
+guidance shutdown yielded an insertion-orbit ephemeris, from the ...
+2026-06-10 17:22:21,972 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:21,972 - INFO - [capsule_communicator]
+2026-06-10 17:22:21,972 - INFO - Query: Capsule Communication CAP COMM Houston mission control
+2026-06-10 17:22:22,160 - INFO - Status: SUCCESS
+2026-06-10 17:22:22,160 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:22,160 - INFO - Results: 5
+2026-06-10 17:22:22,160 - INFO - Avg Distance: 0.9944
+2026-06-10 17:22:22,160 - INFO - Top Distances: ['0.9810', '0.9900', '0.9969']
+2026-06-10 17:22:22,160 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:22,161 - INFO - Mission: apollo_11
+2026-06-10 17:22:22,161 - INFO - Preview: is Apollo
+Control.
+Â»Â» END OF TAPE <<<<
+435
+
+--- PAGE 438 ---
+APOLLO 11 - MISSION COMMENTARY
+7-23-69
+CDT 19:41 - GET 179:09 - 532/1
+PAO
+This is Apollo Control, 179 hours, 9 minutes ground elapsed time....
+2026-06-10 17:22:22,161 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:22,161 - INFO - [launch_director]
+2026-06-10 17:22:22,161 - INFO - Query: launch director GO for launch procedures
+2026-06-10 17:22:22,341 - INFO - Status: SUCCESS
+2026-06-10 17:22:22,341 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:22,341 - INFO - Results: 5
+2026-06-10 17:22:22,341 - INFO - Avg Distance: 1.2873
+2026-06-10 17:22:22,341 - INFO - Top Distances: ['1.2714', '1.2857', '1.2864']
+2026-06-10 17:22:22,341 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:22,341 - INFO - Mission: apollo_13
+2026-06-10 17:22:22,342 - INFO - Preview: in lunar orbit. Over.
+SC
+Oh, okay.
+CAPCOM
+And that might make your timeline
+a little too crowded, getting your suits on there at the
+last minute, say less than an hour before entry interface.
+SC
+Okay....
+2026-06-10 17:22:22,342 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:22,342 - INFO - [crew_communications]
+2026-06-10 17:22:22,342 - INFO - Query: crew communications mission control procedures
+2026-06-10 17:22:22,520 - INFO - Status: SUCCESS
+2026-06-10 17:22:22,520 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:22,520 - INFO - Results: 5
+2026-06-10 17:22:22,521 - INFO - Avg Distance: 0.9586
+2026-06-10 17:22:22,521 - INFO - Top Distances: ['0.9249', '0.9422', '0.9729']
+2026-06-10 17:22:22,521 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:22,521 - INFO - Mission: apollo_11
+2026-06-10 17:22:22,521 - INFO - Preview: spacecraft voice on the Goddard conference loop was degraded by the voice-operated
+gain-adjust amplifiers. In most cases, the problem was cleared by disabling the ampli-
+fier unit at the remote site.
+...
+2026-06-10 17:22:22,521 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:22,521 - INFO - 
+================================================================================
+2026-06-10 17:22:22,521 - INFO - TESTING: Systems and Controls Queries
+2026-06-10 17:22:22,521 - INFO - ================================================================================
+
+2026-06-10 17:22:22,521 - INFO - [external_tank]
+2026-06-10 17:22:22,521 - INFO - Query: external tank propellant loading cryogenic
+2026-06-10 17:22:22,694 - INFO - Status: SUCCESS
+2026-06-10 17:22:22,694 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:22,694 - INFO - Results: 5
+2026-06-10 17:22:22,694 - INFO - Avg Distance: 1.0555
+2026-06-10 17:22:22,694 - INFO - Top Distances: ['1.0354', '1.0382', '1.0443']
+2026-06-10 17:22:22,694 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:22,694 - INFO - Mission: challenger
+2026-06-10 17:22:22,695 - INFO - Preview: roximately 500 gallons of super cold propellant loading operation is now in a replenished mode which means that liquid oxygen and liquid hydrogen are being added to the tank as those propellants boil ...
+2026-06-10 17:22:22,695 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:22,695 - INFO - [orbital_operations]
+2026-06-10 17:22:22,695 - INFO - Query: orbital operations procedures tracking
+2026-06-10 17:22:22,902 - INFO - Status: SUCCESS
+2026-06-10 17:22:22,902 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:22,902 - INFO - Results: 5
+2026-06-10 17:22:22,902 - INFO - Avg Distance: 0.9641
+2026-06-10 17:22:22,903 - INFO - Top Distances: ['0.9005', '0.9562', '0.9641']
+2026-06-10 17:22:22,903 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:22,903 - INFO - Mission: apollo_11
+2026-06-10 17:22:22,903 - INFO - Preview: e portion of the trajectory (liftoff to approximately 20
+seconds) was established by constraining integrated telemetered guidance
+accelerometer data to the early phase of the best estimate trajectory....
+2026-06-10 17:22:22,903 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:22,903 - INFO - [vehicle_systems]
+2026-06-10 17:22:22,903 - INFO - Query: vehicle systems configuration preflight
+2026-06-10 17:22:23,101 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,101 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,102 - INFO - Results: 5
+2026-06-10 17:22:23,102 - INFO - Avg Distance: 1.1599
+2026-06-10 17:22:23,102 - INFO - Top Distances: ['1.0775', '1.1197', '1.1806']
+2026-06-10 17:22:23,102 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:23,102 - INFO - Mission: apollo_11
+2026-06-10 17:22:23,102 - INFO - Preview: formance.- Except for procedural errors which degraded
+performance to some extent, all required functions were satisfactory. Eight known state-
+vector transfers from the primary system were performed....
+2026-06-10 17:22:23,102 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,102 - INFO - [ice_inspection]
+2026-06-10 17:22:23,102 - INFO - Query: ice inspection team frost formation
+2026-06-10 17:22:23,269 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,269 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,270 - INFO - Results: 5
+2026-06-10 17:22:23,270 - INFO - Avg Distance: 1.0839
+2026-06-10 17:22:23,270 - INFO - Top Distances: ['0.9743', '1.0861', '1.0973']
+2026-06-10 17:22:23,270 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:23,270 - INFO - Mission: challenger
+2026-06-10 17:22:23,270 - INFO - Preview: s in Dakar in Senegal is uh forecasted to be very good In Casablanca it is described as a no go Weather conditions there do not support a TAL um
+
+[33:54] spk_2: Landing if the crew is scheduled to be ...
+2026-06-10 17:22:23,270 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,270 - INFO - [launch_pad]
+2026-06-10 17:22:23,270 - INFO - Query: launch pad preparation procedures complex 39
+2026-06-10 17:22:23,456 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,456 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,456 - INFO - Results: 5
+2026-06-10 17:22:23,456 - INFO - Avg Distance: 1.0073
+2026-06-10 17:22:23,457 - INFO - Top Distances: ['0.9871', '0.9969', '1.0089']
+2026-06-10 17:22:23,457 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:23,457 - INFO - Mission: apollo_13
+2026-06-10 17:22:23,457 - INFO - Preview: so I recommend you go ahead and
+get started; you shouldn't be delayed by the pad at all.
+CAP COM Aquarius, Houston. I've got your burn pad.
+SC
+Roger, Houston, standby. Are you ready?
+Standby to copy. ...
+2026-06-10 17:22:23,457 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,457 - INFO - [saturn_five]
+2026-06-10 17:22:23,457 - INFO - Query: Saturn V launch vehicle stages thrust
+2026-06-10 17:22:23,629 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,629 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,629 - INFO - Results: 5
+2026-06-10 17:22:23,629 - INFO - Avg Distance: 0.8971
+2026-06-10 17:22:23,629 - INFO - Top Distances: ['0.7997', '0.8911', '0.8914']
+2026-06-10 17:22:23,630 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:23,630 - INFO - Mission: apollo_11
+2026-06-10 17:22:23,630 - INFO - Preview: ng with the spacecraft test conductor on setting up
+proper switch settings in preparation for pressurizing the reaction control system. These are
+these big thrusters on the side of the service module....
+2026-06-10 17:22:23,630 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,630 - INFO - [orbiter_systems]
+2026-06-10 17:22:23,630 - INFO - Query: orbiter systems preflight checkout
+2026-06-10 17:22:23,800 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,800 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,800 - INFO - Results: 5
+2026-06-10 17:22:23,800 - INFO - Avg Distance: 1.1677
+2026-06-10 17:22:23,800 - INFO - Top Distances: ['1.0618', '1.1512', '1.1892']
+2026-06-10 17:22:23,800 - INFO - Source: 109-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:23,801 - INFO - Mission: challenger
+2026-06-10 17:22:23,801 - INFO - Preview: holding their flight rate with a with uh 3 orbiters And for Jeff's second question um who are the people that make the decision to go ahead with the launch and um
+
+[49:14] spk_11: Do you have can you ...
+2026-06-10 17:22:23,801 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,801 - INFO - [spacecraft_power]
+2026-06-10 17:22:23,801 - INFO - Query: spacecraft power systems internal power
+2026-06-10 17:22:23,955 - INFO - Status: SUCCESS
+2026-06-10 17:22:23,956 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:23,956 - INFO - Results: 5
+2026-06-10 17:22:23,956 - INFO - Avg Distance: 1.1990
+2026-06-10 17:22:23,956 - INFO - Top Distances: ['1.1557', '1.1773', '1.2101']
+2026-06-10 17:22:23,956 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:23,956 - INFO - Mission: apollo_11
+2026-06-10 17:22:23,956 - INFO - Preview: o deliver less current than usual, and (2) battery A had been
+fully charged just prior to the maneuver. Both these conditions combined to result in
+the higher-than-usual current delivery by battery A....
+2026-06-10 17:22:23,956 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:23,956 - INFO - [ground_support]
+2026-06-10 17:22:23,957 - INFO - Query: ground support equipment launch team
+2026-06-10 17:22:24,124 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,124 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,124 - INFO - Results: 5
+2026-06-10 17:22:24,125 - INFO - Avg Distance: 1.0899
+2026-06-10 17:22:24,125 - INFO - Top Distances: ['0.9477', '1.1039', '1.1157']
+2026-06-10 17:22:24,125 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:24,125 - INFO - Mission: apollo_11
+2026-06-10 17:22:24,125 - INFO - Preview: CTION
+1.1
+Purpose
+1-1
+1.2
+Scope
+1-1
+2
+EVENT TIMES
+2.1
+Summary of Events
+2-1
+2.2
+Variable Time and Commanded Switch
+Selector Events
+2-2
+3
+LAUNCH OPERATIONS
+3.1
+Summary
+3-1
+3.2
+Prelaunch Milestones
+3-1
+...
+2026-06-10 17:22:24,125 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,125 - INFO - 
+================================================================================
+2026-06-10 17:22:24,125 - INFO - TESTING: Procedural Queries
+2026-06-10 17:22:24,125 - INFO - ================================================================================
+
+2026-06-10 17:22:24,126 - INFO - [preflight_preparation]
+2026-06-10 17:22:24,126 - INFO - Query: preflight preparation countdown procedures
+2026-06-10 17:22:24,285 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,285 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,285 - INFO - Results: 5
+2026-06-10 17:22:24,285 - INFO - Avg Distance: 0.8887
+2026-06-10 17:22:24,285 - INFO - Top Distances: ['0.7903', '0.8549', '0.9026']
+2026-06-10 17:22:24,285 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:24,285 - INFO - Mission: challenger
+2026-06-10 17:22:24,285 - INFO - Preview: e computer will control all the remaining countdown events as well as monitor the response and status of all the space shuttle systems
+
+[137:09] spk_0: At T minus 31 seconds the ground line sequencer ...
+2026-06-10 17:22:24,285 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,286 - INFO - [vehicle_checkout]
+2026-06-10 17:22:24,286 - INFO - Query: vehicle checkout systems status firing room
+2026-06-10 17:22:24,448 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,448 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,448 - INFO - Results: 5
+2026-06-10 17:22:24,449 - INFO - Avg Distance: 1.1737
+2026-06-10 17:22:24,449 - INFO - Top Distances: ['1.0807', '1.1436', '1.1977']
+2026-06-10 17:22:24,449 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:24,449 - INFO - Mission: challenger
+2026-06-10 17:22:24,449 - INFO - Preview: e equipment here
+
+[15:33] spk_1: C M T C O T C
+
+[15:37] spk_1: Yeah I need support on 136
+
+[15:40] spk_1: about that
+
+[15:47] spk_1: I
+
+[15:48] spk_1: The EMTC to 143 please Get ready
+
+[15:55] spk_1: ...
+2026-06-10 17:22:24,449 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,449 - INFO - [crew_procedures]
+2026-06-10 17:22:24,449 - INFO - Query: crew procedures astronaut breakfast preparations
+2026-06-10 17:22:24,617 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,617 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,617 - INFO - Results: 5
+2026-06-10 17:22:24,617 - INFO - Avg Distance: 0.8818
+2026-06-10 17:22:24,617 - INFO - Top Distances: ['0.7195', '0.8931', '0.9113']
+2026-06-10 17:22:24,618 - INFO - Source: a11transcript_pao_textract_full_text
+2026-06-10 17:22:24,618 - INFO - Mission: apollo_11
+2026-06-10 17:22:24,618 - INFO - Preview: d stages.
+CDT 8:01 - GET T-30:52 - 11/2
+PAO
+Close to 3/4 of a million gallons of propellants were loaded during these 5 hours. Following
+that the astronauts, the prime crew, were awakened at 4:15 a.m....
+2026-06-10 17:22:24,618 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,618 - INFO - [telemetry_checks]
+2026-06-10 17:22:24,618 - INFO - Query: telemetry checks ground control tracking
+2026-06-10 17:22:24,780 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,780 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,780 - INFO - Results: 5
+2026-06-10 17:22:24,780 - INFO - Avg Distance: 1.0252
+2026-06-10 17:22:24,780 - INFO - Top Distances: ['0.9402', '1.0093', '1.0249']
+2026-06-10 17:22:24,780 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:24,781 - INFO - Mission: apollo_11
+2026-06-10 17:22:24,781 - INFO - Preview: mandatory tracking requirement of the CCS; however, the CCS
+transponder has turnaround ranging capabilities and provided a backup to
+the Command and Service Module (CSM) transponder used for tracking ...
+2026-06-10 17:22:24,781 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,781 - INFO - [propellant_status]
+2026-06-10 17:22:24,781 - INFO - Query: propellant status oxidizer tanks pressurization
+2026-06-10 17:22:24,965 - INFO - Status: SUCCESS
+2026-06-10 17:22:24,966 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:24,966 - INFO - Results: 5
+2026-06-10 17:22:24,966 - INFO - Avg Distance: 0.9252
+2026-06-10 17:22:24,966 - INFO - Top Distances: ['0.8545', '0.9231', '0.9279']
+2026-06-10 17:22:24,966 - INFO - Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:22:24,966 - INFO - Mission: apollo_11
+2026-06-10 17:22:24,966 - INFO - Preview: peak-to-peak
+250
+24 psi peak-to-peak
+Oxidizer interface pressure
+200
+Chamber pressure and oxidizer interface pressure, psia
+150
+6-8 psi peak-to-peak
+100
+Chamber pressure
+50
+0
+100
+200
+300
+400
+500
+600
+7...
+2026-06-10 17:22:24,966 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:24,966 - INFO - [range_safety]
+2026-06-10 17:22:24,967 - INFO - Query: range safety command destruct procedures
+2026-06-10 17:22:25,142 - INFO - Status: SUCCESS
+2026-06-10 17:22:25,143 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:25,143 - INFO - Results: 5
+2026-06-10 17:22:25,143 - INFO - Avg Distance: 1.0294
+2026-06-10 17:22:25,143 - INFO - Top Distances: ['0.9818', '1.0061', '1.0167']
+2026-06-10 17:22:25,143 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:25,143 - INFO - Mission: apollo_11
+2026-06-10 17:22:25,143 - INFO - Preview: 7. Battery 6D40 Voltage, Current, and Temperature
+13-8
+
+--- PAGE 193 ---
+SECTION 14
+RANGE SAFETY AND COMMAND SYSTEMS
+14.1 SUMMARY
+Data indicated that the redundant Secure Range Safety Command Systems
+...
+2026-06-10 17:22:25,143 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:25,143 - INFO - [communications_checks]
+2026-06-10 17:22:25,143 - INFO - Query: communications checks antennas transponders
+2026-06-10 17:22:25,315 - INFO - Status: SUCCESS
+2026-06-10 17:22:25,315 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:25,315 - INFO - Results: 5
+2026-06-10 17:22:25,315 - INFO - Avg Distance: 1.1119
+2026-06-10 17:22:25,315 - INFO - Top Distances: ['0.9739', '1.1309', '1.1378']
+2026-06-10 17:22:25,315 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:22:25,315 - INFO - Mission: apollo_11
+2026-06-10 17:22:25,315 - INFO - Preview: ntenna Low Gain
+1
+Accepted (MAP Override)
+34,105.3
+09:28:25.3
+CCS Transponder Disable
+3
+Accepted (MAP Override)
+34,160.0
+09:29:20.0
+CCS Transponder Enable
+3
+Not Transmitted by
+Ground Station
+34,234.5
+...
+2026-06-10 17:22:25,315 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:25,315 - INFO - [launch_operations]
+2026-06-10 17:22:25,316 - INFO - Query: launch operations procedures team status
+2026-06-10 17:22:25,479 - INFO - Status: SUCCESS
+2026-06-10 17:22:25,479 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:25,479 - INFO - Results: 5
+2026-06-10 17:22:25,480 - INFO - Avg Distance: 1.0131
+2026-06-10 17:22:25,480 - INFO - Top Distances: ['0.9884', '1.0030', '1.0131']
+2026-06-10 17:22:25,480 - INFO - Source: AS13_PAO_textract_full_text
+2026-06-10 17:22:25,480 - INFO - Mission: apollo_13
+2026-06-10 17:22:25,480 - INFO - Preview: that you
+mentioned that it's less than 24 hours to go, what I'd like to
+do when I have aboard all the procedures that you're working up
+I can run through them with the crew and make sure that we get
+a...
+2026-06-10 17:22:25,480 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:25,480 - INFO - [crew_access]
+2026-06-10 17:22:25,480 - INFO - Query: crew access procedures spacecraft hatch entry
+2026-06-10 17:22:25,640 - INFO - Status: SUCCESS
+2026-06-10 17:22:25,640 - INFO - Relevance: [NOT_RELEVANT]
+2026-06-10 17:22:25,640 - INFO - Results: 5
+2026-06-10 17:22:25,640 - INFO - Avg Distance: 0.9246
+2026-06-10 17:22:25,640 - INFO - Top Distances: ['0.8786', '0.9127', '0.9236']
+2026-06-10 17:22:25,640 - INFO - Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:22:25,640 - INFO - Mission: challenger
+2026-06-10 17:22:25,641 - INFO - Preview: k_1: See there's one
+
+[70:18] spk_1: Yeah it's still not clear
+
+[70:22] spk_1: this is OTC on UF How do you loud
+
+[70:31] spk_1: and clear
+
+[70:33] spk_1: I'll be going back round one
+
+[70:38] spk_0: ...
+2026-06-10 17:22:25,641 - INFO - --------------------------------------------------------------------------------
+2026-06-10 17:22:25,641 - INFO - 
+================================================================================
+2026-06-10 17:22:25,641 - INFO - VALIDATION SUMMARY
+2026-06-10 17:22:25,641 - INFO - ================================================================================
+
+2026-06-10 17:22:25,641 - INFO - Total Tests: 67
+2026-06-10 17:22:25,641 - INFO - Highly Relevant: 0
+2026-06-10 17:22:25,641 - INFO - Relevant: 2
+2026-06-10 17:22:25,641 - INFO - Somewhat Relevant: 0
+2026-06-10 17:22:25,641 - INFO - Not Relevant: 65
+2026-06-10 17:22:25,641 - INFO - No Results: 0
+2026-06-10 17:22:25,642 - INFO - Errors: 0
+2026-06-10 17:22:25,642 - INFO - 
+[SUCCESS] Success Rate (Highly + Relevant): 3.0%
+2026-06-10 17:22:25,642 - INFO - [SUCCESS] Good Rate (Highly + Relevant + Somewhat): 3.0%

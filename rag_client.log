@@ -1,0 +1,18 @@
+2026-06-11 23:24:47,460 - INFO - Found 1 ChromaDB directories
+2026-06-11 23:24:47,460 - INFO - Checking directory: chroma_db_openai
+2026-06-11 23:24:47,829 - INFO - Discovered collection: nasa_space_missions_text with 8147 documents in directory: chroma_db_openai
+2026-06-11 23:24:47,990 - INFO - Initialized RAG system with collection: nasa_space_missions_text containing 8147 documents
+2026-06-11 23:24:48,391 - INFO - Retrying request to /embeddings in 0.484109 seconds
+2026-06-11 23:24:48,877 - INFO - Retrying request to /embeddings in 0.761923 seconds
+2026-06-11 23:24:49,640 - ERROR - Error generating embedding: Connection error.
+2026-06-11 23:29:17,023 - INFO - Found 1 ChromaDB directories
+2026-06-11 23:29:17,023 - INFO - Checking directory: chroma_db_openai
+2026-06-11 23:29:17,319 - INFO - Discovered collection: nasa_space_missions_text with 8147 documents in directory: chroma_db_openai
+2026-06-11 23:29:17,462 - INFO - Initialized RAG system with collection: nasa_space_missions_text containing 8147 documents
+2026-06-11 23:29:18,793 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-11 23:29:18,844 - INFO - Generated 1536 OpenAI embeddings
+2026-06-11 23:36:42,704 - INFO - Found 1 ChromaDB directories
+2026-06-11 23:36:42,704 - INFO - Checking directory: chroma_db_openai
+2026-06-11 23:36:43,081 - INFO - Discovered collection: nasa_space_missions_text with 8147 documents in directory: chroma_db_openai
+2026-06-11 23:36:43,227 - INFO - Initialized RAG system with collection: nasa_space_missions_text containing 8147 documents
+2026-06-11 23:36:46,258 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"

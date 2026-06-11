@@ -1,0 +1,724 @@
+2026-06-10 17:29:25,666 - INFO - 
+================================================================================
+2026-06-10 17:29:25,666 - INFO - COLLECTION HEALTH CHECK
+2026-06-10 17:29:25,666 - INFO - ================================================================================
+2026-06-10 17:29:25,666 - INFO - Total documents: 8147
+2026-06-10 17:29:25,670 - INFO - 
+Sample documents (first 5):
+2026-06-10 17:29:25,670 - INFO - 
+[Document 1]
+2026-06-10 17:29:25,670 - INFO - ID: apollo_11_19900066485_textract_full_text_chunk_0000
+2026-06-10 17:29:25,670 - INFO - Mission: apollo_11
+2026-06-10 17:29:25,672 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:29:25,672 - INFO - Content (first 200 chars): --- PAGE 1 ---
+SPACE
+GEORGE C. MARSHALL
+FLIGHT
+CENTER
+SATURN
+MPR - - SAT - FE- - 69-9
+SEPTEMBER 20, 1969
+(ACCESSION NUMBER)
+(THRU)
+264
+2.D
+FF No. 602(D)
+(PAGES)
+TMX 62558
+(CODE)
+31
+(NASA CR OR TMX OR ...
+2026-06-10 17:29:25,672 - INFO - 
+[Document 2]
+2026-06-10 17:29:25,672 - INFO - ID: apollo_11_19900066485_textract_full_text_chunk_0001
+2026-06-10 17:29:25,672 - INFO - Mission: apollo_11
+2026-06-10 17:29:25,672 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:29:25,672 - INFO - Content (first 200 chars): UP
+
+--- PAGE 4 ---
+
+
+--- PAGE 5 ---
+AS-506 LAUNCH VEHICLE
+
+--- PAGE 6 ---
+
+
+--- PAGE 7 ---
+MPR-SAT-FE-69-9
+SATURN V LAUNCH VEHICLE FLIGHT EVALUATION REPORT - AS-506
+APOLLO 11 MISSION
+BY
+Saturn Flight ...
+2026-06-10 17:29:25,672 - INFO - 
+[Document 3]
+2026-06-10 17:29:25,672 - INFO - ID: apollo_11_19900066485_textract_full_text_chunk_0002
+2026-06-10 17:29:25,672 - INFO - Mission: apollo_11
+2026-06-10 17:29:25,673 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:29:25,673 - INFO - Content (first 200 chars): r orbit with a period of 342 days by a combination of continuous
+LH₂ vent, a LOX dump and APS ullage burn.
+The Principal and Secondary Detailed Objectives of this mission
+were completely accomplished....
+2026-06-10 17:29:25,673 - INFO - 
+[Document 4]
+2026-06-10 17:29:25,673 - INFO - ID: apollo_11_19900066485_textract_full_text_chunk_0003
+2026-06-10 17:29:25,673 - INFO - Mission: apollo_11
+2026-06-10 17:29:25,673 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:29:25,673 - INFO - Content (first 200 chars): CTION
+1.1
+Purpose
+1-1
+1.2
+Scope
+1-1
+2
+EVENT TIMES
+2.1
+Summary of Events
+2-1
+2.2
+Variable Time and Commanded Switch
+Selector Events
+2-2
+3
+LAUNCH OPERATIONS
+3.1
+Summary
+3-1
+3.2
+Prelaunch Milestones
+3-1
+...
+2026-06-10 17:29:25,673 - INFO - 
+[Document 5]
+2026-06-10 17:29:25,673 - INFO - ID: apollo_11_19900066485_textract_full_text_chunk_0004
+2026-06-10 17:29:25,673 - INFO - Mission: apollo_11
+2026-06-10 17:29:25,673 - INFO - Source: 19900066485_textract_full_text
+2026-06-10 17:29:25,673 - INFO - Content (first 200 chars): king During the Injection Phase
+of Flight
+4-2
+4.2.4
+Tracking During the Post Injection
+Phase of Flight
+4-3
+4.3
+Trajectory Evaluation
+4-3
+4.3.1
+Ascent Trajectory
+4-3
+4.3.2
+Parking Orbit Trajectory
+4-6
+...
+2026-06-10 17:29:25,673 - INFO - 
+================================================================================
+2026-06-10 17:29:25,673 - INFO - TESTING EXACT PHRASES FROM DOCUMENTS
+2026-06-10 17:29:25,673 - INFO - ================================================================================
+
+2026-06-10 17:29:25,914 - INFO - [Apollo/Saturn Launch Control] [SOMEWHAT_RELEVANT] (Distance: 0.6462)
+2026-06-10 17:29:25,914 - INFO -   Top Result: rong has performed
+some final switch settings for the stabilization and control system of the spacecraft. The
+spacecraft also now is on full internal ...
+2026-06-10 17:29:25,914 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:26,114 - INFO - [T minus] [NOT_RELEVANT] (Distance: 1.1725)
+2026-06-10 17:29:26,114 - INFO -   Top Result: s 153, plus 132; GETI 004 10 25 38;
+NOUN 81, minus 04761, plus 00001, plus 53361; roll 180 193 000; HA is NA;
+plus 00203 53573 633 53349, sextant star...
+2026-06-10 17:29:26,115 - INFO -   Source: a11transcript_tec_textract_full_text
+2026-06-10 17:29:26,315 - INFO - [countdown] [NOT_RELEVANT] (Distance: 0.9269)
+2026-06-10 17:29:26,315 - INFO -   Top Result: e computer will control all the remaining countdown events as well as monitor the response and status of all the space shuttle systems
+
+[137:09] spk_0...
+2026-06-10 17:29:26,315 - INFO -   Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:29:26,546 - INFO - [spacecraft] [NOT_RELEVANT] (Distance: 1.0460)
+2026-06-10 17:29:26,546 - INFO -   Top Result: uration Changes
+B-4
+xviii
+
+--- PAGE 25 ---
+ACKNOWLEDGEMENT
+This report is published by the Saturn Flight Evaluation Working Group--
+composed of repres...
+2026-06-10 17:29:26,546 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:26,741 - INFO - [launch] [NOT_RELEVANT] (Distance: 1.2560)
+2026-06-10 17:29:26,741 - INFO -   Top Result: oned that it was good to see Mike Smith on the other side of the hatch Mike Smith has been one of the astronauts who has been active here at the Kenne...
+2026-06-10 17:29:26,741 - INFO -   Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:29:26,938 - INFO - [ignition] [NOT_RELEVANT] (Distance: 1.1926)
+2026-06-10 17:29:26,939 - INFO -   Top Result: 497)
+(43,608)
+First S-IVB
+kg
+87,100
+19,731
+87,187
+19,756
+87,360
+Ignition
+19,786
+(1bm)
+87,119
+(192,023)
+(43,500)
+19,753
+87,315
+(192,215)
+(43,555)
+19,75...
+2026-06-10 17:29:26,939 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:27,137 - INFO - [Neil Armstrong] [NOT_RELEVANT] (Distance: 0.8881)
+2026-06-10 17:29:27,137 - INFO -   Top Result: kind."
+The achievement belongs to all mankind. But those
+that made it possible deserve our special thanks.
+First, there are three especially brave men...
+2026-06-10 17:29:27,137 - INFO -   Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:29:27,336 - INFO - [Buzz Aldrin] [NOT_RELEVANT] (Distance: 1.0596)
+2026-06-10 17:29:27,336 - INFO -   Top Result: f, and I'll
+ARMSTRONG
+(garbled)
+ALDRIN
+Put the solar wind.
+PAO
+That's Buzz Aldrin retrieving the solar wind experiment.
+»» END OF TAPE <<<<
+CDT 23:51 ...
+2026-06-10 17:29:27,336 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:27,547 - INFO - [Apollo 11] [SOMEWHAT_RELEVANT] (Distance: 0.6513)
+2026-06-10 17:29:27,547 - INFO -   Top Result: o the agency and industry teams that built our spacecraft, the saturn, the
+Columbia, the Eagle, and the little EMU, the space suit and back pack that ...
+2026-06-10 17:29:27,547 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:27,746 - INFO - [Apollo 13] [NOT_RELEVANT] (Distance: 0.7418)
+2026-06-10 17:29:27,746 - INFO -   Top Result: rol, Houston.
+END OF TAPE
+
+--- PAGE 84 ---
+APOLLO 13 MISSION COMMENTARY, 4-12-70, CST 4:47 GET 14:37 60/1
+PAO
+This is Apollo Control, Houston, at 16 h...
+2026-06-10 17:29:27,746 - INFO -   Source: AS13_PAO_textract_full_text
+2026-06-10 17:29:27,934 - INFO - [Challenger] [NOT_RELEVANT] (Distance: 1.1581)
+2026-06-10 17:29:27,934 - INFO -   Top Result: rogram experience
+
+[158:04] spk_4: A national tragedy
+
+[158:06] spk_4: With the explosion of the Space Shuttle Challenger approximately 1 minute and a...
+2026-06-10 17:29:27,934 - INFO -   Source: 108-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:29:28,125 - INFO - [liftoff] [NOT_RELEVANT] (Distance: 1.2097)
+2026-06-10 17:29:28,126 - INFO -   Top Result: at's on page L 1-1.
+03 19 53 24
+CC
+Okay, Jack. Understand you are ready for the
+switch configuration checklist. And I have in
+front of me the lift-off...
+2026-06-10 17:29:28,126 - INFO -   Source: AS13_TEC_textract_full_text
+2026-06-10 17:29:28,315 - INFO - [engines running] [NOT_RELEVANT] (Distance: 1.2018)
+2026-06-10 17:29:28,315 - INFO -   Top Result: e objectives of this review board will be
+
+[43:34] spk_1: OK thank you
+
+[43:35] spk_1: JSC We're moving now to the Marshall Space Flight Center for Qu...
+2026-06-10 17:29:28,315 - INFO -   Source: 109-AAG_STS-51L_Mission_Audio_transcript
+2026-06-10 17:29:28,504 - INFO - [command module] [NOT_RELEVANT] (Distance: 1.1297)
+2026-06-10 17:29:28,504 - INFO -   Top Result: SS has a
+fan and has a lithium hydroxide
+use the com-
+mand module system. Also, the OPS
+right
+now
+command module
+command module oxygen
+and electrical ...
+2026-06-10 17:29:28,504 - INFO -   Source: AS13_TEC_textract_full_text
+2026-06-10 17:29:28,696 - INFO - [lunar module] [NOT_RELEVANT] (Distance: 0.7783)
+2026-06-10 17:29:28,696 - INFO -   Top Result: le separation:
+Potable water tank
+36.8
+Water waste tank
+43.5
+101
+
+--- PAGE 114 ---
+9. PERFORMANCE OF THE LUNAR MODULE
+A discussion of the lunar module...
+2026-06-10 17:29:28,696 - INFO -   Source: NASA_NTRS_Archive_19710015566_textract_full_text
+2026-06-10 17:29:28,887 - INFO - [Eagle] [NOT_RELEVANT] (Distance: 1.0402)
+2026-06-10 17:29:28,887 - INFO -   Top Result: an 0 and a B.
+CAPCOM
+What is your O2 quantity by the way?
+COLUMBIA
+O2 quantity is about 91.
+CAPCOM
+I've got 92.
+COLUMBIA
+Okay now. I'm going to mode s...
+2026-06-10 17:29:28,888 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:29,086 - INFO - [Columbia] [NOT_RELEVANT] (Distance: 1.0815)
+2026-06-10 17:29:29,086 - INFO -   Top Result: rea that you talked about very closely and
+nowhere did I see anything.
+CAPCOM
+Roger. Out.
+CAPCOM
+Columbia, this is Houston. Over.
+COLUMBIA
+Go ahead.
+C...
+2026-06-10 17:29:29,087 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:29,087 - INFO - 
+================================================================================
+2026-06-10 17:29:29,087 - INFO - EXACT PHRASE TEST SUMMARY
+2026-06-10 17:29:29,087 - INFO - ================================================================================
+2026-06-10 17:29:29,087 - INFO - Highly Relevant: 0
+2026-06-10 17:29:29,087 - INFO - Relevant: 0
+2026-06-10 17:29:29,087 - INFO - Somewhat Relevant: 2
+2026-06-10 17:29:29,088 - INFO - Not Relevant: 15
+2026-06-10 17:29:29,088 - INFO - Failed: 0
+2026-06-10 17:29:29,088 - INFO - 
+================================================================================
+2026-06-10 17:29:29,088 - INFO - TESTING SIMPLE QUERIES
+2026-06-10 17:29:29,088 - INFO - ================================================================================
+
+2026-06-10 17:29:29,279 - INFO - [Apollo 11] POOR (Distance: 0.6513)
+2026-06-10 17:29:29,279 - INFO -   Result 1 (dist 0.6220): o the agency and industry teams that built our spacecraft, the saturn, the
+Columbia, the Eagle, and ... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:29,279 - INFO -   Result 2 (dist 0.6530): s is Houston contact. (Garble).
+HONEYSUCKLE
+Honeysuckle, roger.
+GUAM
+Guam, roger.
+PAO
+Trans-Earth in... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:29,280 - INFO -   Result 3 (dist 0.6788): en you copy them.
+CAPCOM
+11, Houston. We got them.
+SC
+Okay.
+CAPCOM
+Hello Apollo 11, Houston. We woul... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:29,469 - INFO - [countdown] POOR (Distance: 0.9269)
+2026-06-10 17:29:29,469 - INFO -   Result 1 (dist 0.8398): e computer will control all the remaining countdown events as well as monitor the response and statu... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,469 - INFO -   Result 2 (dist 0.9600): econds mark in the count when he gives the status on the final alignment of the
+stabilization and co... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:29,470 - INFO -   Result 3 (dist 0.9809): minute now away from picking up the countdown once again at the T minus 20 minute point Uh the most ... [source: 107-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,662 - INFO - [launch] POOR (Distance: 1.2560)
+2026-06-10 17:29:29,662 - INFO -   Result 1 (dist 1.2467): oned that it was good to see Mike Smith on the other side of the hatch Mike Smith has been one of th... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,662 - INFO -   Result 2 (dist 1.2578): ave clear skies at the time of launch of fairly light winds from the northwest and almost unlimited ... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,663 - INFO -   Result 3 (dist 1.2634): untdown resumes the ground launch sequencer will be in full control This master computer program wil... [source: 107-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,856 - INFO - [spacecraft] POOR (Distance: 1.0460)
+2026-06-10 17:29:29,857 - INFO -   Result 1 (dist 0.9467): uration Changes
+B-4
+xviii
+
+--- PAGE 25 ---
+ACKNOWLEDGEMENT
+This report is published by the Saturn Fl... [source: 19900066485_textract_full_text]
+2026-06-10 17:29:29,857 - INFO -   Result 2 (dist 1.0955): sroom teachers have easy and low cost access to the materials used and can be easily duplicated here... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:29,857 - INFO -   Result 3 (dist 1.0959): on
+NASA-Langley Research Center
+NASA Resident Management Office
+Hampton, Virginia 23365
+Mail Stop 88... [source: 19900066485_textract_full_text]
+2026-06-10 17:29:30,052 - INFO - [Armstrong] POOR (Distance: 0.9149)
+2026-06-10 17:29:30,052 - INFO -   Result 1 (dist 0.8859): he olive branch. It was our overall crew choice to deposit a replica of this symbol on
+the moon. Per... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:30,052 - INFO -   Result 2 (dist 0.9089): Neil.
+PAO
+Life Support Consumables still looking good.
+ARMSTRONG Okay, Houston. Tell me if you're ge... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:30,053 - INFO -   Result 3 (dist 0.9498): he high gain Houston.
+CAPCOM
+Roger, out.
+PAO
+The surgeon says everything looks fine.
+»» END OF TAPE ... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:30,243 - INFO - [Lovell] POOR (Distance: 1.4732)
+2026-06-10 17:29:30,243 - INFO -   Result 1 (dist 1.4259): [125:56] spk_13: Dick Mike Judy E Ron Greg and Christa
+
+[126:03] spk_13: your families and your coun... [source: 109-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:30,244 - INFO -   Result 2 (dist 1.4691): for the privilege of having known them
+
+[115:26] spk_5: Having our lives touched by their lives
+
+[11... [source: 109-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:30,244 - INFO -   Result 3 (dist 1.5247): 4:05] spk_5: Thy greatness is seen in this vast and wondrous universe
+
+[114:12] spk_5: We turn now t... [source: 109-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:30,436 - INFO - [Scobie] POOR (Distance: 1.3099)
+2026-06-10 17:29:30,436 - INFO -   Result 1 (dist 1.2612): [119:20] spk_13: of this great country
+
+[119:22] spk_13: From South Carolina to Washington State Ohi... [source: 109-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:30,436 - INFO -   Result 2 (dist 1.3144): t
+
+[57:54] spk_1: Other equipment which each crew member carries in his flight suit would be familia... [source: 107-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:30,436 - INFO -   Result 3 (dist 1.3541): LO 13 MISSION COMMENTARY 4-14-70 CST 5:56 GET 64:44:00 218/2
+CAPCOM Just the same Jim. You're readab... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:30,627 - INFO - [ignition] POOR (Distance: 1.1926)
+2026-06-10 17:29:30,627 - INFO -   Result 1 (dist 1.1545): 497)
+(43,608)
+First S-IVB
+kg
+87,100
+19,731
+87,187
+19,756
+87,360
+Ignition
+19,786
+(1bm)
+87,119
+(192,02... [source: 19900066485_textract_full_text]
+2026-06-10 17:29:30,627 - INFO -   Result 2 (dist 1.1991): 9
+569.6
+0.0
+86 S-IVB ENGINE RESTART COMMAND
+9848.2
+0.9
+570.0
+0.0
+(FUEL LEAD INITIATION)
+(SECOND ESC)... [source: 19900066485_textract_full_text]
+2026-06-10 17:29:30,627 - INFO -   Result 3 (dist 1.2241): 07
+(OECO)
+44 S-II ENGINE CUTOFF INTERRUPT,
+548.2
+-3.5
+0.0
+0.0
+START OF TIME BASE 4 (T4)
+(START OF IG... [source: 19900066485_textract_full_text]
+2026-06-10 17:29:30,826 - INFO - [Apollo 13] POOR (Distance: 0.7418)
+2026-06-10 17:29:30,826 - INFO -   Result 1 (dist 0.7179): rol, Houston.
+END OF TAPE
+
+--- PAGE 84 ---
+APOLLO 13 MISSION COMMENTARY, 4-12-70, CST 4:47 GET 14:37... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:30,826 - INFO -   Result 2 (dist 0.7428): o the agency and industry teams that built our spacecraft, the saturn, the
+Columbia, the Eagle, and ... [source: a11transcript_pao_textract_full_text]
+2026-06-10 17:29:30,826 - INFO -   Result 3 (dist 0.7648): ead the Aquarius?
+CAP COM
+Aquarius, Houston. Reading you about
+3 by 3.
+SC
+Houston, (garbled)
+SC
+Hous... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:31,018 - INFO - [Challenger] POOR (Distance: 1.1581)
+2026-06-10 17:29:31,019 - INFO -   Result 1 (dist 1.1375): rogram experience
+
+[158:04] spk_4: A national tragedy
+
+[158:06] spk_4: With the explosion of the Spa... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:31,019 - INFO -   Result 2 (dist 1.1609): e in management science at the West Coast University in Los Angeles
+
+[73:54] spk_0: He worked at Ray... [source: 107-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:31,019 - INFO -   Result 3 (dist 1.1760): CHALLENGER STS-51L MISSION AUDIO TRANSCRIPT
+Audio File: 107-AAG_STS-51L_Mission_Audio
+Transcription ... [source: 107-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:31,219 - INFO - [Houston] POOR (Distance: 1.1022)
+2026-06-10 17:29:31,219 - INFO -   Result 1 (dist 1.0710): figured it
+out did a good Job. It's right there, dab-smack in the middle of window number 1.
+01 08 4... [source: a11transcript_tec_textract_full_text]
+2026-06-10 17:29:31,219 - INFO -   Result 2 (dist 1.1110): e uh paramedics going into that area
+
+[148:51] spk_5: To repeat we had a
+
+[148:55] spk_5: Apparently... [source: 108-AAG_STS-51L_Mission_Audio_transcript]
+2026-06-10 17:29:31,219 - INFO -   Result 3 (dist 1.1245): further to the southeast of there, there's a few
+clouds.
+01 08 50 48
+CC
+Roger, 11. Can you pick out ... [source: a11transcript_tec_textract_full_text]
+2026-06-10 17:29:31,415 - INFO - [Control] POOR (Distance: 1.2667)
+2026-06-10 17:29:31,416 - INFO -   Result 1 (dist 1.2415): AP COM Okay, Aquarius, when you get her pretty much
+in attitude, there, and it looks like you're as ... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:31,416 - INFO -   Result 2 (dist 1.2709): een upstairs several times and hadn't
+continually noticed any flow by the windows before, so my
+firs... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:31,416 - INFO -   Result 3 (dist 1.2876): 4-14-70 CST 9:10P GET 79:57:00 307/1
+SC
+Houston, I'm standing by to copy the
+PTC procedures.
+CAP COM... [source: AS13_PAO_textract_full_text]
+2026-06-10 17:29:31,416 - INFO - 
+================================================================================
+2026-06-10 17:29:31,417 - INFO - EXAMINING CHUNK QUALITY
+2026-06-10 17:29:31,417 - INFO - ================================================================================
+
+2026-06-10 17:29:31,425 - INFO - 
+Chunk Length Statistics:
+2026-06-10 17:29:31,426 - INFO -   Min: 859 chars
+2026-06-10 17:29:31,426 - INFO -   Max: 1000 chars
+2026-06-10 17:29:31,426 - INFO -   Avg: 967 chars
+2026-06-10 17:29:31,426 - INFO - 
+Missions in collection:
+2026-06-10 17:29:31,426 - INFO -   apollo_11: 100 chunks
+2026-06-10 17:29:31,426 - INFO - 
+Sources in collection:
+2026-06-10 17:29:31,426 - INFO -   19900066485_textract_full_text: 100 chunks
+2026-06-10 17:29:31,427 - INFO - 
+Example chunks (first 5):
+2026-06-10 17:29:31,427 - INFO - 
+[Chunk 1]
+2026-06-10 17:29:31,427 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,427 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:31,427 - INFO -   Length: 992 chars
+2026-06-10 17:29:31,427 - INFO -   Content: --- PAGE 1 ---
+SPACE
+GEORGE C. MARSHALL
+FLIGHT
+CENTER
+SATURN
+MPR - - SAT - FE- - 69-9
+SEPTEMBER 20, 1969
+(ACCESSION NUMBER)
+(THRU)
+264
+2.D
+FF No. 602(D)
+(PAGES)
+TMX 62558
+(CODE)
+31
+(NASA CR OR TMX OR AD NUMBER)
+(CATEGORY)
+SATURN V LAUNCH VEHICLE
+FLIGHT EVALUATION REPORT-AS-506
+APOLLO 11 MISSION
+(NAS...
+2026-06-10 17:29:31,427 - INFO - 
+[Chunk 2]
+2026-06-10 17:29:31,427 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,427 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:31,427 - INFO -   Length: 909 chars
+2026-06-10 17:29:31,427 - INFO -   Content: UP
+
+--- PAGE 4 ---
+
+
+--- PAGE 5 ---
+AS-506 LAUNCH VEHICLE
+
+--- PAGE 6 ---
+
+
+--- PAGE 7 ---
+MPR-SAT-FE-69-9
+SATURN V LAUNCH VEHICLE FLIGHT EVALUATION REPORT - AS-506
+APOLLO 11 MISSION
+BY
+Saturn Flight Evaluation Working Group
+George C. Marshall Space Flight Center
+ABSTRACT
+Saturn V AS-506 (Apollo 11 ...
+2026-06-10 17:29:31,427 - INFO - 
+[Chunk 3]
+2026-06-10 17:29:31,428 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,428 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:31,428 - INFO -   Length: 997 chars
+2026-06-10 17:29:31,428 - INFO -   Content: r orbit with a period of 342 days by a combination of continuous
+LH₂ vent, a LOX dump and APS ullage burn.
+The Principal and Secondary Detailed Objectives of this mission
+were completely accomplished. No failures, anomalies, or deviations
+occurred that seriously affected the flight or mission.
+Any q...
+2026-06-10 17:29:31,428 - INFO - 
+[Chunk 4]
+2026-06-10 17:29:31,428 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,428 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:31,428 - INFO -   Length: 1000 chars
+2026-06-10 17:29:31,428 - INFO -   Content: CTION
+1.1
+Purpose
+1-1
+1.2
+Scope
+1-1
+2
+EVENT TIMES
+2.1
+Summary of Events
+2-1
+2.2
+Variable Time and Commanded Switch
+Selector Events
+2-2
+3
+LAUNCH OPERATIONS
+3.1
+Summary
+3-1
+3.2
+Prelaunch Milestones
+3-1
+3.3
+Countdown Events
+3-1
+3.4
+Propellant Loading
+3-1
+3.4.1
+RP-1 Loading
+3-1
+3.4.2
+LOX Loading
+3-3
+3.4...
+2026-06-10 17:29:31,428 - INFO - 
+[Chunk 5]
+2026-06-10 17:29:31,428 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,429 - INFO -   Source: 19900066485_textract_full_text
+2026-06-10 17:29:31,429 - INFO -   Length: 991 chars
+2026-06-10 17:29:31,429 - INFO -   Content: king During the Injection Phase
+of Flight
+4-2
+4.2.4
+Tracking During the Post Injection
+Phase of Flight
+4-3
+4.3
+Trajectory Evaluation
+4-3
+4.3.1
+Ascent Trajectory
+4-3
+4.3.2
+Parking Orbit Trajectory
+4-6
+4.3.3
+Injection Trajectory
+4-6
+4.3.4
+Post TLI Trajectory
+4-10
+4.3.5
+S-IVB/IU Post Separation Traject...
+2026-06-10 17:29:31,429 - INFO - 
+================================================================================
+2026-06-10 17:29:31,429 - INFO - TESTING DISTANCE DISTRIBUTION
+2026-06-10 17:29:31,429 - INFO - ================================================================================
+
+2026-06-10 17:29:31,622 - INFO - Query: 'Apollo 11'
+2026-06-10 17:29:31,623 - INFO - Retrieved 10 results
+2026-06-10 17:29:31,623 - INFO - 
+Distance Distribution:
+2026-06-10 17:29:31,623 - INFO - 
+[Result 1] Distance: 0.6220
+2026-06-10 17:29:31,623 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,623 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,623 - INFO -   Content: o the agency and industry teams that built our spacecraft, the saturn, the
+Columbia, the Eagle, and the little EMU, the space suit and back pack that was our small
+spacecraft out on the lunar surface....
+2026-06-10 17:29:31,623 - INFO - 
+[Result 2] Distance: 0.6530
+2026-06-10 17:29:31,623 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,623 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,624 - INFO -   Content: s is Houston contact. (Garble).
+HONEYSUCKLE
+Honeysuckle, roger.
+GUAM
+Guam, roger.
+PAO
+Trans-Earth injection should be completed in about 10 seconds from now. And we should
+have shut-down at this time....
+2026-06-10 17:29:31,624 - INFO - 
+[Result 3] Distance: 0.6788
+2026-06-10 17:29:31,624 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,624 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,624 - INFO -   Content: en you copy them.
+CAPCOM
+11, Houston. We got them.
+SC
+Okay.
+CAPCOM
+Hello Apollo 11, Houston. We would like P00 and accept. We have a DELTA H update for
+you, over.
+SC
+All right, Charlie, just a moment....
+2026-06-10 17:29:31,624 - INFO - 
+[Result 4] Distance: 0.6959
+2026-06-10 17:29:31,624 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,624 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,624 - INFO -   Content: of signal.
+CAPCOM
+Apollo 11, Houston. Over.
+SC
+Houston, Apollo 11. Go ahead.
+CAPCOM
+Roger. The Black Bugle just arrived with some morning news briefs if you're ready.
+SC
+Go ahead.
+CAPCOM
+Roger. Okay. ...
+2026-06-10 17:29:31,625 - INFO - 
+[Result 5] Distance: 0.7069
+2026-06-10 17:29:31,625 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,625 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,625 - INFO -   Content: 7-23-69
+APOLLO 11 - MISSION COMMENTARY
+SC
+That was Neil. This is Buzz. I wonder if you could find out when was the last time my lawn
+was cut.
+CAPCOM
+That might be a little more difficult to find out. ...
+2026-06-10 17:29:31,625 - INFO - 
+[Result 6] Distance: 0.7097
+2026-06-10 17:29:31,625 - INFO -   Source: a11transcript_tec_textract_full_text
+2026-06-10 17:29:31,625 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,625 - INFO -   Content: - Page 270
+03 23 16 18
+CC
+Roger. The "Black Bugle" just arrived with some morning news briefs if you're
+ready.
+03 23 16 28
+CDR
+Go ahead.
+03 23 16 30
+CC
+Roger.
+03 23 16 31
+CMP
+...
+03 23 16 32
+CC
+Okay. ...
+2026-06-10 17:29:31,625 - INFO - 
+[Result 7] Distance: 0.7257
+2026-06-10 17:29:31,625 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,625 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,626 - INFO -   Content: e earth came from 91 thousand 3 hundred 71 nautical miles out in
+space. After a brief and sincere and moving transmission from the Apollo 11 spacecraft. This
+is Apollo Control at 177 hours 45 minutes....
+2026-06-10 17:29:31,626 - INFO - 
+[Result 8] Distance: 0.7307
+2026-06-10 17:29:31,626 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,626 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,626 - INFO -   Content: ellers list this week is, "In the year 2525." Morning Bugle. Out.
+SC
+Thank you very much, Ron.
+END OF TAPE <<<<
+CDT 6:59 - GET 190:27 - 552/1
+SC
+Crew status report. 5.575.5.
+CAPCOM
+Apollo 11, Houston....
+2026-06-10 17:29:31,626 - INFO - 
+[Result 9] Distance: 0.7340
+2026-06-10 17:29:31,626 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,626 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,626 - INFO -   Content: attitude.
+»» END OF TAPE <<<<
+CDT 16:10 - GET 79:38 - 246/1
+PAO
+3 nautical miles. Apollo 11, at this time, has completed its platform alignment and is
+maneuvering the spacecraft to its burn attitude. ...
+2026-06-10 17:29:31,626 - INFO - 
+[Result 10] Distance: 0.7419
+2026-06-10 17:29:31,626 - INFO -   Source: a11transcript_pao_textract_full_text
+2026-06-10 17:29:31,627 - INFO -   Mission: apollo_11
+2026-06-10 17:29:31,627 - INFO -   Content: s that might inhabit it to
+"damage or assault". He asked that the submarine's plan to take a tissue sample with a
+retrievable dart from any monster it finds can be done without damage and disturbance....
+2026-06-10 17:29:31,627 - INFO - 
+Distance Statistics:
+2026-06-10 17:29:31,627 - INFO -   Min: 0.6220
+2026-06-10 17:29:31,627 - INFO -   Max: 0.7419
+2026-06-10 17:29:31,627 - INFO -   Avg: 0.6999
