@@ -117,18 +117,21 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         # convert result to dictionary with metric scores
         evaluation_scores = {}
 
-        # Extract scores from result Dataframe
-        if hasattr(result, 'to_pandas'):
-            df=result.to_pandas()
-            if not df.empty:
-                # Get first row (single sample)
-                for column in df.columns:
-                    if column not in ['question', 'contexts', 'answer', 'ground_truth', 'reference_contexts']:
-                        evaluation_scores[column] = float(df[column].iloc[0])
-        else:
-            # Fallback: convert result dict directly
-            evaluation_scores= {k: float(v) for k, v in result.items()
-                            if isinstance(v, (int,float))}
+        # Extract directly from the Ragas Result object
+        for key, val in result.items():
+            if isinstance(val, dict):
+                # If a metric returns a dictionary of sub-scores, flatten it
+                for sub_key, sub_val in val.items():
+                    try:
+                        evaluation_scores[f"{key}_{sub_key}"] = float(sub_val)
+                    except (ValueError, TypeError):
+                        pass
+            else:
+                try:
+                    # float() safely converts python floats, ints, AND NumPy floats!
+                    evaluation_scores[key] = float(val)
+                except (ValueError, TypeError):
+                    pass
         return evaluation_scores
     except Exception as e:
         # Handle errors gracefully - no crashes
