@@ -34,12 +34,15 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
     if not valid_contexts:
         return {"error": "No valid contexts provided"}
     
+    openai_api_key="voc-777460345126677478748569bc05e493bdd9.29426320"
+    
     try:
         # TODO: Create evaluator LLM with model gpt-3.5-turbo
         evaluator_llm = LangchainLLMWrapper(
             ChatOpenAI(
-                model="",
+                model="gpt-3.5-turbo",
                 openai_api_base="",
+                openai_api_key=openai_api_key,
                 temperature=0 # Consistent evaluation
             )
         )
@@ -47,8 +50,10 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         # TODO: Create evaluator_embeddings with model test-embedding-3-small
         evaluator_embeddings = LangchainEmbeddingsWrapper(
             OpenAIEmbeddings(
-                model="",
-                openai_api_base=""
+                model="test-embedding-3-small",
+                openai_api_base="",
+                openai_api_key=openai_api_key,
+
             )
         )
     

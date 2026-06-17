@@ -3,6 +3,7 @@ from rag_client import initialize_rag_system
 from rag_client import retrieve_documents
 from rag_client import format_context
 from llm_client import generate_response
+from ragas_evaluator import evaluate_response_quality
 
 def main():
     backends = discover_chroma_backends()
@@ -14,8 +15,10 @@ def main():
     #context = format_context(results.get('documents', [[]])[0],results.get('metadatas', [[]])[0])
     #print(context)
 
-    response = generate_response("voc-777460345126677478748569bc05e493bdd9.29426320", "What was Apollo 11?", "", [])
-    print(response)
+    #response = generate_response("voc-777460345126677478748569bc05e493bdd9.29426320", "What was Apollo 11?", "", [])
+    #print(response)
+
+    scores = evaluate_response_quality(question="What happened during Apollo11?",answer="Apollo 11 landed on the moon in 1969.",contexts=["Apollo 11 was the first mission to land humans on the Moon...."])
 
 if __name__ == "__main__":
     main()

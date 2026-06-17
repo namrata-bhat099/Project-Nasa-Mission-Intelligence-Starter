@@ -778,10 +778,9 @@ class ChromaEmbeddingPipelineTextOnly:
             evaluation['top_metadatas'] = metadatas[:3] if metadatas else []
             
             if distances:
-                evaluation['avg_distance'] = sum(distances) / len(distances)
+                evaluation['avg_distance'] = (sum(distances) / len(distances))/2.0
             
             # Relevance assessment based on distance
-            # ChromaDB uses cosine distance: 0 = perfect match, 2 = completely different
             if distances:
                 avg_dist = evaluation['avg_distance']
                 if avg_dist < 0.3:
