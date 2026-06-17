@@ -1,8 +1,16 @@
+import sys
+from unittest.mock import MagicMock
+
+# Trick ragas into bypassing the broken Google VertexAI imports
+sys.modules['langchain_community.chat_models.vertexai'] = MagicMock()
+sys.modules['langchain_community.llms.vertexai'] = MagicMock()
+
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from langchain_openai import ChatOpenAI
 from langchain_openai import OpenAIEmbeddings
 from typing import Dict, List, Optional
+from datasets import Dataset
 
 # RAGAS imports
 try:
@@ -80,18 +88,30 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         ]
 
         # Create sample for evaluation
-        sample = SingleTurnSample(
+        samples = SingleTurnSample(
             user_input=question,
             response=answer,
             retrieved_contexts=valid_contexts,
             reference="", #Optional: ground truth answer
         )
 
+        evaluation_dataset = [
+            {
+                "question": sample.user_input,
+                "contexts": sample.retrieved_contexts,
+                "answer": sample.response,
+                "ground_truth": sample.reference
+            }
+            for sample in samples
+        ]
+
+        ragas_dataset = Dataset.from_list(evaluation_dataset)
+
         # TODO: Evaluate the response using the metrics
         result= evaluate(
             llm=evaluator_llm,
             embeddings=evaluator_embeddings,
-            samples=[sample],
+            dataset=[sample],
             metrics=metrics
         )
         # TODO: Return the evaluation results
