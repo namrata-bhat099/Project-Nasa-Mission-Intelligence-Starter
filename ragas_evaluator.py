@@ -95,17 +95,16 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
             reference="", #Optional: ground truth answer
         )"""
 
-        evaluation_dataset = [
-            {
-                "question": question,
-                "contexts": valid_contexts,
-                "answer": answer,
-                "ground_truth": "",
-                "reference_contexts": valid_contexts
-            }
-        ]
+        evaluation_dataset = {
+            "question": [question],
+            "contexts": [valid_contexts],
+            "answer": [answer],
+            "ground_truth": [""],
+            "reference_contexts": [valid_contexts]
+            
+        }
 
-        ragas_dataset = Dataset.from_list(evaluation_dataset)
+        ragas_dataset = Dataset.from_dict(evaluation_dataset)
 
         # TODO: Evaluate the response using the metrics
         result= evaluate(
@@ -123,8 +122,8 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
             df=result.to_pandas()
             if not df.empty:
                 # Get first row (single sample)
-                for column in df.column:
-                    if column not in ['user_inpt', 'response', 'retrieved_contexts', 'reference']:
+                for column in df.columns:
+                    if column not in ['question', 'contexts', 'answer', 'ground_truth', 'reference_contexts']:
                         evaluation_scores[column] = float(df[column].iloc[0])
         else:
             # Fallback: convert result dict directly
