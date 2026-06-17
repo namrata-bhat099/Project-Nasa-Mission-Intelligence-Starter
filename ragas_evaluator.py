@@ -99,7 +99,7 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
             "question": [question],
             "contexts": [valid_contexts],
             "answer": [answer],
-            "ground_truth": [""],
+            "ground_truth": [answer],
             "reference_contexts": [valid_contexts]
             
         }
@@ -117,21 +117,32 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         # convert result to dictionary with metric scores
         evaluation_scores = {}
 
-        # Extract directly from the Ragas Result object
-        for key, val in result.items():
-            if isinstance(val, dict):
-                # If a metric returns a dictionary of sub-scores, flatten it
-                for sub_key, sub_val in val.items():
-                    try:
-                        evaluation_scores[f"{key}_{sub_key}"] = float(sub_val)
-                    except (ValueError, TypeError):
-                        pass
-            else:
-                try:
-                    # float() safely converts python floats, ints, AND NumPy floats!
-                    evaluation_scores[key] = float(val)
-                except (ValueError, TypeError):
-                    pass
+        # use to_pandas() since it reliably unpacks the Ragas dataset
+        if hasattr(result, 'to_pandas'):
+            df = result.to_pandas()
+            if not df.empty:
+                # Get first row (single sample)
+                for col in df.columns:
+                    # Explicitly skip known text columns just to be safe
+                    if col in ['question', 'contexts', 'answer', 'ground_truth', 'reference_contexts']:
+                        continue
+                        
+                    val = df[col].iloc[0]
+                    
+                    # If the metric returned a dictionary of sub-scores (common with ROUGE)
+                    if isinstance(val, dict):
+                        for sub_key, sub_val in val.items():
+                            try:
+                                evaluation_scores[f"{col}_{sub_key}"] = float(sub_val)
+                            except (ValueError, TypeError):
+                                pass
+                    else:
+                        # Attempt to convert directly to float
+                        # This safely catches standard Python numbers AND NumPy float32s!
+                        try:
+                            evaluation_scores[col] = float(val)
+                        except (ValueError, TypeError):
+                            pass
         return evaluation_scores
     except Exception as e:
         # Handle errors gracefully - no crashes
