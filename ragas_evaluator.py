@@ -88,21 +88,20 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         ]
 
         # Create sample for evaluation
-        samples = SingleTurnSample(
+        """ samples = SingleTurnSample(
             user_input=question,
             response=answer,
             retrieved_contexts=valid_contexts,
             reference="", #Optional: ground truth answer
-        )
+        )"""
 
         evaluation_dataset = [
             {
-                "question": sample.user_input,
-                "contexts": sample.retrieved_contexts,
-                "answer": sample.response,
-                "ground_truth": sample.reference
+                "question": question,
+                "contexts": valid_contexts,
+                "answer": answer,
+                "ground_truth": ""
             }
-            for sample in samples
         ]
 
         ragas_dataset = Dataset.from_list(evaluation_dataset)
@@ -111,7 +110,7 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         result= evaluate(
             llm=evaluator_llm,
             embeddings=evaluator_embeddings,
-            dataset=[sample],
+            dataset=ragas_dataset,
             metrics=metrics
         )
         # TODO: Return the evaluation results
