@@ -49,7 +49,7 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         evaluator_llm = LangchainLLMWrapper(
             ChatOpenAI(
                 model="gpt-3.5-turbo",
-                openai_api_base="",
+                openai_api_base="https://openai.vocareum.com/v1",
                 openai_api_key=openai_api_key,
                 temperature=0 # Consistent evaluation
             )
@@ -58,8 +58,8 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
         # TODO: Create evaluator_embeddings with model test-embedding-3-small
         evaluator_embeddings = LangchainEmbeddingsWrapper(
             OpenAIEmbeddings(
-                model="test-embedding-3-small",
-                openai_api_base="",
+                model="text-embedding-3-small",
+                openai_api_base="https://openai.vocareum.com/v1",
                 openai_api_key=openai_api_key,
 
             )
@@ -100,7 +100,8 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
                 "question": question,
                 "contexts": valid_contexts,
                 "answer": answer,
-                "ground_truth": ""
+                "ground_truth": "",
+                "reference_contexts": valid_contexts
             }
         ]
 
