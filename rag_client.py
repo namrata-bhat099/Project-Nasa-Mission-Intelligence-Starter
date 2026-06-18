@@ -71,9 +71,9 @@ def discover_chroma_backends() -> Dict[str, Dict[str, str]]:
                 # TODO: Build information dictionary containing:
                 backends[key] = {
                     # TODO: Store directory path as string
-                    'path': str(chroma_dir),
+                    'directory': str(chroma_dir),
                     # TODO: Store collection name
-                    'collection': collection.name,
+                    'collection_name': collection.name,
                     # TODO: Create user-friendly display name
                     'display_name': f"{chroma_dir.name}/{collection.name} ({doc_count} documents",
                     # TODO: Get document count
@@ -117,16 +117,18 @@ def initialize_rag_system(chroma_dir: str, collection_name: str):
         # Verify collection has documents
         doc_count = collection.count()
         logger.info(f"Initialized RAG system with collection: {collection_name} containing {doc_count} documents")
-        return collection
+        return collection,"success",""
     except ValueError as e:
         # Collection not found
         logger.error(f"Collection '{collection_name}' not found in directory '{chroma_dir}'. "
                      "Please run embedding_pipeline.py first")
-        raise ValueError(f"Collection '{collection_name}' not found in directory '{chroma_dir}'. "
-                     "Please run embedding_pipeline.py first")
+        return "","","Collection '{collection_name}' not found in directory '{chroma_dir}'. Please run embedding_pipeline.py first"
+        """ raise ValueError(f"Collection '{collection_name}' not found in directory '{chroma_dir}'. "
+                     "Please run embedding_pipeline.py first")"""
     except Exception as e:
         logger.error(f"Failed to initialize RAG system: {e}")
-        raise RuntimeError(f"Failed to initialize RAG system: {e}")
+        return "","","Failed to initialize RAG system: {e}"
+        """raise RuntimeError(f"Failed to initialize RAG system: {e}")"""
     
 def get_embedding(text:str, openai_api_key: str, embedding_model: str = "text-embedding-3-small") -> List[float]:
     """

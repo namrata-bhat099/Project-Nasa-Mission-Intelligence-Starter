@@ -1,6 +1,20 @@
 from typing import Dict, List
 from openai import OpenAI
 
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('llm_client.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+
 def generate_response(openai_key: str, user_message: str, context: str, 
                      conversation_history: List[Dict], model: str = "gpt-3.5-turbo") -> str:
     """Generate response using OpenAI with context"""
@@ -49,6 +63,9 @@ def generate_response(openai_key: str, user_message: str, context: str,
         )
 
         # TODO: Return response
+        logger.info(f"input-message: {messages}")
+        logger.info(f"response: {response.choices[0].message.content.strip()}")
+        logger.info("---------------------------------------------------------------------------------")
         return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Error generating response: {str(e)}"

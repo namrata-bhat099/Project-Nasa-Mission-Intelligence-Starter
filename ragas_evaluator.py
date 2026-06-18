@@ -12,6 +12,19 @@ from langchain_openai import OpenAIEmbeddings
 from typing import Dict, List, Optional
 from datasets import Dataset
 
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('ragas_evaluator.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
 # RAGAS imports
 try:
     from ragas import SingleTurnSample
@@ -24,16 +37,20 @@ except ImportError:
 def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -> Dict[str, float]:
     """Evaluate response quality using RAGAS metrics"""
     if not RAGAS_AVAILABLE:
+        logger.error("RAGAS not available")
         return {"error": "RAGAS not available"}
     
     # Validate inputs - handle empty or malformed inputs
     if not question or not question.strip():
+        logger.error("Question cannot be empty")
         return {"error": "Question cannot be empty"}
     
     if not answer or not answer.strip():
+        logger.error("Answer cannot be empty")
         return {"error": "Answer cannot be empty"}
     
     if not contexts or len(contexts) == 0:
+        logger.error("Contexts cannot be empty")
         return {"error": "Contexts cannot be empty"}
     
     # Filter out empty contexts
@@ -143,7 +160,9 @@ def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -
                             evaluation_scores[col] = float(val)
                         except (ValueError, TypeError):
                             pass
+        logger.info(evaluation_scores)
         return evaluation_scores
     except Exception as e:
         # Handle errors gracefully - no crashes
+        logger.error(f"Evaluation failed: {str(e)}")
         return {"error": f"Evaluation failed: {str(e)}"}
